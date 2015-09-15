@@ -1,2 +1,3 @@
 name: Shankar Kulumani, Doctoral Student
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
