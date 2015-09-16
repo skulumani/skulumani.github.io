@@ -2,6 +2,7 @@
 layout: post
 title: "Site Launch"
 date: 2015-09-15
+categories: general
 excerpt: "Launch of website"
 ---
 
