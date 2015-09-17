@@ -10,7 +10,7 @@ relative_permalinks: true
 # Setup
 title:            Shankar Kulumani
 tagline:          'Doctoral Student'
-description:      'Doctoral Student'
+description:      'Doctoral Student at George Washington University'
 url:              http://skulumani.github.io
 baseurl:          /
 
@@ -22,7 +22,7 @@ paginate:         5
 
 # Custom vars
 version:          0.1
-date:			  "2015/09/16"
+date:			  "2015/09/17"
 
 github:
   repo:           https://github.com/skulumani

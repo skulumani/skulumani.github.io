@@ -9,22 +9,25 @@ title: About
 
 ## Bio
 
-### Other Interests
+## Other Interests
 
-## Cycling
+Some of the other things that I'm interested in
 
-I commute to school every day.
+### Cycling
+
+I try to ride everyday.
 All of my rides can be found on <a href="https://www.strava.com/athletes/shankarkulumani">Strava</a> or <a href="http://ridewithgps.com/users/216546">Ride with GPS.</a>
 
 {% include ride_with_gps_summary.html %}
 
-## Podcasts
+### Podcasts
 
-## Formula 1
+### Formula 1
 
 
 
-### Test Latex Code
+## Test Latex Code
+
 This is a displayed math equation:
 
 $$
