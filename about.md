@@ -13,3 +13,4 @@ title: About
 
 Some of the other things that I'm interested in
 
+{% include creative_commons_license.html %}
