@@ -29,8 +29,9 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
+    <span class="post-date">Created {{ post.date | date_to_string }}</span>
+    <span class="post-modified">Modified {{ post.modified | date_to_string }}</span>
+    
     {{ post.excerpt}}
   </div>
   {% endfor %}
