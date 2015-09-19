@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Systematic Design of Optimal Low Thrust Transfers in the Three-Body Problem"
-date: 2015-09-18
+date: 2015-09-17
 modified: 2015-09-18
 excerpt: "A computational approach is developed for the design of continuous low thrust
 transfers in the planar circular restricted three-body problem. The transfer design
@@ -14,7 +14,7 @@ problem using a variational integrator. This provides for a geometrically exact
 and numerically efficient method for the motion in the three-body problem. A
 numerical simulation is provided developing a transfer from a L1 periodic orbit in
 the Earth-Moon system to a target orbit about the Moon."
-categories: research, astrodynamics, geometric, variational
+categories: [research,astrodynamics,geometric,variational]
 mathjax: true
 ---
 
