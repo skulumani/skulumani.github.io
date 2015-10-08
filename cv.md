@@ -3,10 +3,11 @@ layout: page
 title: Shankar Kulumani
 ---
 
-    <a href="https://github.com/skulumani/kulumani_cv/blob/master/kulumani_cv.pdf">
-        <img src="/assets/pdf.png" align="right">
-    </a>
-    
+[![PDF CV][2]][1]
+
+  [1]: https://github.com/skulumani/kulumani_cv/blob/master/kulumani_cv.pdf
+  [2]: /assets/pdf.png
+
 ## Education
 
 Ph.D.   Mechanical and Aerospace Engineering  George Washington University Aug 2014 - Present
