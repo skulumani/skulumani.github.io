@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Shankar Kulumani
+title: Resume
 ---
 
 [![pdf][2]][1]
