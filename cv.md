@@ -6,7 +6,7 @@ title: Shankar Kulumani
 [![pdf][2]][1]
 
   [1]: https://github.com/skulumani/kulumani_cv/blob/master/kulumani_cv.pdf
-  [2]: /assets/pdf.png (PDF CV)
+  [2]: {{site.url}}/assets/pdf.png (PDF CV)
 
 ## Education
 
