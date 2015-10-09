@@ -9,19 +9,19 @@ file: https://github.com/skulumani/kulumani_cv/raw/master/kulumani_cv.pdf
 
 ## Contact Information
 
-[shanks.k@gmail.com](mailto:shanks.k@gmail.com)
+[skulumani@gwu.edu](mailto:skulumani@gwu.edu)
 
 ## Education
 
-Ph.D.	|	George Washington University | Aug 2014 - Present 
-M.S.  |		Purdue University   | Jan 2011 - Dec 2013
-B.S.   |	U.S. Air Force Academy   | Jun 2005 - May 2009
+Ph.D.	|	George Washington University | 2014 - Present 
+M.S.  |		Purdue University   | 2011 - 2013
+B.S.   |	U.S. Air Force Academy   | 2005 - 2009
 
 ## Professional Experience
 
-DIA/MSIC | Threat Systems Engineer | Sep 2014 - Present
-AFRL/RV	 | Lead Test Engineer 		| Aug 2011 - Sep 2014
-SDTW/SDDR | Deputy Space Vehicles Lead | May 2009 - Aug 2011
+DIA/MSIC | Threat Systems Engineer |  2014 - Present
+AFRL/RV	 | Lead Test Engineer 		|  2011 -  2014
+SDTW/SDDR | Deputy Space Vehicles Lead |  2009 -  2011
 
 ## Awards
 
