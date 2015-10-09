@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Resume
+title: Curriculum Vitae
 date: 2015-10-08
 file: https://github.com/skulumani/kulumani_cv/raw/master/kulumani_cv.pdf
 ---
 
 [<img src="{{site.baseurl}}assets/pdf.png">]({{page.file}})
 
-## Contact Information
+## Research Interests
 
-[skulumani@gwu.edu](mailto:skulumani@gwu.edu)
+Geometric mechanics and control for aerospace systems.
 
 ## Education
 
