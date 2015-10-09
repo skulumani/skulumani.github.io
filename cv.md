@@ -1,38 +1,29 @@
 ---
 layout: page
 title: Resume
+date: 2015-10-08
+file: https://github.com/skulumani/kulumani_cv/raw/master/kulumani_cv.pdf
 ---
 
-[![pdf][2]][1]
+[<img src="{{site.baseurl}}assets/pdf.png">]({{page.file}})
 
-  [1]: https://github.com/skulumani/kulumani_cv/raw/master/kulumani_cv.pdf
-  [2]: ./assets/pdf.png (PDF CV)
+## Contact Information
+
+[shanks.k@gmail.com](mailto:shanks.k@gmail.com)
 
 ## Education
 
-Ph.D.   Mechanical and Aerospace Engineering  George Washington University Aug 2014 - Present
-
-M.S.    Aeronautical and Astronautical Engineering  Purdue University   Jan 2011 - Dec 2013
-
-B.S.    Astronautical Engineering   U.S. Air Force Academy   Jun 2005 - May 2009
+Ph.D.	|	George Washington University | Aug 2014 - Present 
+M.S.  |		Purdue University   | Jan 2011 - Dec 2013
+B.S.   |	U.S. Air Force Academy   | Jun 2005 - May 2009
 
 ## Professional Experience
 
-Reserve Captain
-
-AFRL
-
-SDTW
-
-## Publications
-
-Geolocation
-
-AAS
-
+DIA/MSIC | Threat Systems Engineer | Sep 2014 - Present
+AFRL/RV	 | Lead Test Engineer 		| Aug 2011 - Sep 2014
+SDTW/SDDR | Deputy Space Vehicles Lead | May 2009 - Aug 2011
 
 ## Awards
 
-SSPI
-
-Academy
+SSPI | Most Innovative/Creative Project | 2015
+GWU | Graduate Research Fellowship | 2014-2015
