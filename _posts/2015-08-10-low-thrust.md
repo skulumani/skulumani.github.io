@@ -25,7 +25,7 @@ the Earth-Moon system to a target orbit about the Moon.
 ## Downloads
 
 * arXiv
-* Github source
+* [Github source](https://github.com/skulumani/2015_AAS)
 * Poster
 
 ## BibTeX citation
