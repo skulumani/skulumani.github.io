@@ -3,7 +3,7 @@ layout: post
 title: "Site Launch"
 date: 2015-09-15
 modified: 2015-09-15
-categories: general
+tags: [general]
 excerpt: "A place to record my research."
 ---
 

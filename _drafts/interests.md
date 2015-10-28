@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Personal Interests
+mathjax: true
 ---
 
 ## Cycling

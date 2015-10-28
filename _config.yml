@@ -9,8 +9,8 @@ relative_permalinks: true
 
 # Setup
 title:            Shankar Kulumani
-tagline:          'Doctoral Student'
-description:      'Doctoral Student'
+tagline:          'Doctoral Candidate'
+description:      'Doctoral Candidate'
 url:              http://skulumani.github.io
 baseurl:          /
 
@@ -18,7 +18,7 @@ author:
   name:           'Shankar Kulumani'
   url:            https://skulumani.github.io
 
-paginate:         5
+paginate:         10
 
 # Custom vars
 version:          0.1

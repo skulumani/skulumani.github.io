@@ -2,7 +2,8 @@
 layout: post
 title: "Business Card"
 date: 2015-10-27
-categories: professional
+tags: [professional]
+file: https://github.com/skulumani/business_card/raw/master/card.pdf
 excerpt: "Creating a business card in LaTeX"
 ---
 
@@ -62,13 +63,16 @@ After this all of the standard LaTeX commands may be used to position and typset
 For the QR code, I created another file and used the [qrcode package][qrcode_latex].
 This was the easiest to use as it does not require any other graphics packages or further formatting.
 For example, my contact information in MECARD format:
+
 ```
 \qrcode[hyperlink, height=1.1in, level=L]{MECARD:N:Shankar Kulumani;
 URL:skulumani.github.io;
 EMAIL:skulumani@gwu.edu;;}%
 ```
 
-My [card][card] is available
+## Example Card
+
+Feel free to use my [card][card] as an example to design your own.
 
 [qrcode]: https://en.wikipedia.org/wiki/QR_code
 [zxing]: https://github.com/zxing/zxing/
