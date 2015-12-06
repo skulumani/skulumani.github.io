@@ -10,9 +10,13 @@ I am a graduate student at the George Washington University in the [Flight Dynam
 
 I can be reached via email at [skulumani@gwu.edu](mailto:skulumani@gwu.edu).
 
-## [TextSecure](https://whispersystems.org/)
+## [Signal](https://whispersystems.org/)
 
-My identity may be verified as:
+Signal allows for simple and secure commuincations across mobile devices. 
+It is available for both Android and iOS and offers encrypted messages and calls. 
+It is also [completely open-source](https://github.com/WhisperSystems), available for free and trusted by [security researchers](http://blog.cryptographyengineering.com/2013/03/here-come-encryption-apps.html).
+
+If you're interested you can check my identity through the app and compare it to the values below:
 
 ~~~
 05 6c 42 a8 89 fb 2a 2e 
@@ -23,10 +27,6 @@ e6 86 7a a7 f4 da a6 8d
 ~~~
 
 <img src="{{ site.baseurl }}assets/textsecure_qr.png" width="256"> 
-
-
-
- 
 
 
 <!--- 
