@@ -5,7 +5,7 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+# this has been deprecated in v3.0 relative_permalinks: true 
 
 # Setup
 title:            Shankar Kulumani
@@ -22,7 +22,10 @@ paginate:         10
 
 # Custom vars
 version:          0.1
-date:			  "2015/10/27"
+date:			  "2016-01-06"
 
 github:
   repo:           https://github.com/skulumani
+  
+# Gems for Jekyll 
+gems: [jekyll-paginate]
