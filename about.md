@@ -16,17 +16,17 @@ Signal allows for simple and secure commuincations across mobile devices.
 It is available for both Android and iOS and offers encrypted messages and calls. 
 It is also [completely open-source](https://github.com/WhisperSystems), available for free and trusted by [security researchers](http://blog.cryptographyengineering.com/2013/03/here-come-encryption-apps.html).
 
-If you're interested you can check my identity through the app and compare it to the values below:
+If you're interested you can verify my identity through the app and compare it to the values below:
 
 ~~~
-05 6c 42 a8 89 fb 2a 2e 
-be f0 53 94 84 12 4e 40
-e6 86 7a a7 f4 da a6 8d
-0f 4f 00 e9 7a 78 d0 14
-5a
+05 ee bc 93 9a 74 03 db 
+e6 11 9b f0 77 e3 f8 81
+f2 51 f2 7d 18 79 7c 73
+3b 34 0c b9 42 85 16 b0
+6e
 ~~~
 
-<img src="{{ site.baseurl }}assets/textsecure_qr.png" width="256"> 
+<img src="{{ site.baseurl }}assets/20160124_signal_qr.png" width="256"> 
 
 
 <!--- 
