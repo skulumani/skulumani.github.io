@@ -22,7 +22,7 @@ paginate:         10
 
 # Custom vars
 version:          0.1
-date:			  "2016-02-01"
+date:			  "2016-02-21"
 
 github:
   repo:           https://github.com/skulumani
