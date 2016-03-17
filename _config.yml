@@ -29,3 +29,6 @@ github:
   
 # Gems for Jekyll 
 gems: [jekyll-paginate]
+
+# Include hidden folder for keybase
+include: [".well-known"]

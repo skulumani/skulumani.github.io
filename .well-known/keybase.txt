@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/skulumani
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://skulumani.github.io
+  * I am skulumani (https://keybase.io/skulumani) on keybase.
+  * I have a public key ASBlt-iBY_qyb2Kli7jZX58DoWrBh1X0-UOlOVFMsYhdggo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01019ee80445ecd5a4ff38df03e136d77ec52e27852fd8c01a90a65a9bed8ab81cc10a",
+            "host": "keybase.io",
+            "kid": "012065b7e88163fab26f62a58bb8d95f9f03a16ac18755f4f943a539514cb1885d820a",
+            "uid": "6820653f157385b5c7231feac8cd4919",
+            "username": "skulumani"
+        },
+        "service": {
+            "hostname": "skulumani.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1458253168,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1458253070,
+        "hash": "48b63793f898347ffff53ae9013595507aa4164d296a3d5f46b7120fe22c69f4a3b618bb9ea3eb3aa9b3284437df424c830f28fcd93b3b415c08415520b979ff",
+        "seqno": 411095
+    },
+    "prev": "db1db6f7c99c216ed48df92d6cf8bd7809afdb909a66339eb668d72fb9137cb8",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZbfogWP6sm9ipYu42V+fA6FqwYdV9PlDpTlRTLGIXYIKp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOWVlODA0NDVlY2Q1YTRmZjM4ZGYwM2UxMzZkNzdlYzUyZTI3ODUyZmQ4YzAxYTkwYTY1YTliZWQ4YWI4MWNjMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjViN2U4ODE2M2ZhYjI2ZjYyYTU4YmI4ZDk1ZjlmMDNhMTZhYzE4NzU1ZjRmOTQzYTUzOTUxNGNiMTg4NWQ4MjBhIiwidWlkIjoiNjgyMDY1M2YxNTczODViNWM3MjMxZmVhYzhjZDQ5MTkiLCJ1c2VybmFtZSI6InNrdWx1bWFuaSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic2t1bHVtYW5pLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE0In0sImN0aW1lIjoxNDU4MjUzMTY4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NTgyNTMwNzAsImhhc2giOiI0OGI2Mzc5M2Y4OTgzNDdmZmZmNTNhZTkwMTM1OTU1MDdhYTQxNjRkMjk2YTNkNWY0NmI3MTIwZmUyMmM2OWY0YTNiNjE4YmI5ZWEzZWIzYWE5YjMyODQ0MzdkZjQyNGM4MzBmMjhmY2Q5M2IzYjQxNWMwODQxNTUyMGI5NzlmZiIsInNlcW5vIjo0MTEwOTV9LCJwcmV2IjoiZGIxZGI2ZjdjOTljMjE2ZWQ0OGRmOTJkNmNmOGJkNzgwOWFmZGI5MDlhNjYzMzllYjY2OGQ3MmZiOTEzN2NiOCIsInNlcW5vIjoxMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAM8/k6pq2XDXDb1EyZZv07xBOB6Hj9PBNtRltsa+3PjWMTrhuAgU/PTNXj7FoiTJcMLadbRySst2Iq+lGQSSYDqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/skulumani
+
+==================================================================
