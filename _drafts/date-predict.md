@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Predicting Satellite Passes"
+date: date
+tags: [research]
+excerpt: "Visualizing the motion of satellites using Matlab"
+---
+
+This the final project in Astro 321 at USAFA
+
+I've slowly improved on it by creating a GUI and creating some nice plots
+
+Explain TLEs
+
+Orbital Elements
+
+Describe Kepler's equations to propogate a satellite
+
+Some pretty pictures
+
+Describe how the code works
+
+Links to github

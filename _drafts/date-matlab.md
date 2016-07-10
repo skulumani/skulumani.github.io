@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Matlab Tricks"
+date: date
+tags: [tips, code, matlab, latex]
+excerpt: "Some useful things I've learned in Matlab"
+---
+
+## pass constants to ODE function
+
+vectorized norm of a array of vectors
+
+##Latex animations with gifs
+
+Install ImageMagick
+
+sudo port install ImageMagick
+or brew install ImageMagick
+
+convert -coalesce something.gif something.png
+
+\documentclass{beamer}
+\usepackage{animate}
+
+\begin{document}
+\begin{frame}{Embedded Animation}
+  \animategraphics[loop,controls,width=\linewidth]{12}{something-}{0}{16}
+\end{frame}
+\end{document}
+
+Buttons to jump around in Beamer
+
+Label each of the frames
+\begin{frame}[noframenumbering,label=jacobi]{Jacobi Integral}
+
+Place a button
+\hyperlink{astro}{\beamergotobutton{Go to Appendix}}
+\hyperlink{potential}{\beamerreturnbutton{Go back}}
+
+## Choosing gains for a control
+
+Percent overshoot
+Settling time
+
+Postion and Velocity gains
