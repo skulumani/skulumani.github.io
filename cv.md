@@ -23,6 +23,7 @@ AFRL/RV	 | Lead Test Engineer 		|  2011 -  2014
 SDTW/SDDR | Deputy Space Vehicles Lead |  2009 -  2011
 
 ## Awards
+
 ACC | Best session presentation | 2016
 ACC | Student Travel Award | 2016
 GWU | Hetherington Family Scholarship | 2016
