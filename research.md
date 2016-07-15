@@ -10,7 +10,7 @@ title: Research
 	{% if post.file %}
 		<a href="{{ post.file }}"> <img src="{{site.baseurl}}assets/pdf32.png" align="right"> </a>
   {% endif %}
-  <a href="{{ post.url }}">{{ post.title }}</a><br>
+  <a href="{{ post.url }}">{{ post.title }}</a>
 	<hr/>
 {% endif %}
 {% endfor %}
