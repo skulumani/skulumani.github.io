@@ -30,3 +30,7 @@ GWU | Hetherington Family Scholarship | 2016
 GWU | R&D Showcase - 1st Place Experimental Research | 2016
 SSPI | Most Innovative/Creative Project | 2015
 GWU | Graduate Research Fellowship | 2014-2015
+
+## Publications
+
+
