@@ -34,7 +34,7 @@ SSPI | Most Innovative/Creative Project | 2015
 
 ## Publications
 
-* S. Kulumani and T. Lee, “Low-Thrust Trajectory Design Using Reachability Sets near Asteroid 4769 Castalia,” in Proceedings of the AIAA/AAS Astrodynamics Specialists Conference, Long Beach, California, September 2016.
+* S. Kulumani and T. Lee, [“Low-Thrust Trajectory Design Using Reachability Sets near Asteroid 4769 Castalia,”]({% post_url 2016-08-20-2016AAS %}) in Proceedings of the AIAA/AAS Astrodynamics Specialists Conference, Long Beach, California, September 2016.
 
 * S. Kulumani, I. Hussein, C. Roscoe, M. Wilkins, and P. Schumacher, “Estimation of Information- Theoretic Quantities for Particle Clouds,” in Proceedings of the AIAA/AAS Astrodynamics Specialists Conference, Long Beach, California, September 2016.
 
