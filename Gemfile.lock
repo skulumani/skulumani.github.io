@@ -110,10 +110,15 @@ GEM
       sawyer (~> 0.7.0, >= 0.5.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
+    posix-spawn (0.3.11)
     public_suffix (1.5.3)
+    pygments.rb (0.6.3)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.2.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    redcarpet (3.3.4)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
@@ -128,12 +133,19 @@ GEM
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     unicode-display_width (1.1.1)
+    yajl-ruby (1.2.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   github-pages
+  jekyll
+  jekyll-gist
+  jekyll-github-metadata
+  jekyll-paginate
+  pygments.rb
+  redcarpet
 
 BUNDLED WITH
    1.13.5
