@@ -30,7 +30,7 @@ ______ _            _   ______
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -39,12 +39,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', sans-serif;
   color: #aaa;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', sans-serif;
   color: #50585D;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
