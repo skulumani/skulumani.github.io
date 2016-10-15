@@ -6,7 +6,6 @@ file: https://github.com/skulumani/kulumani_cv/raw/master/kulumani_cv.pdf
 mathjax: true
 ---
 
-
 ## Research Interests
 
 Geometric mechanics and control for aerospace systems.
