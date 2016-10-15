@@ -2,12 +2,12 @@
 layout: default
 title: Home
 ---
-{% comment %}
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url | remove_first: '/'}}">
         {{ post.title }}
       </a>
     </h1>
@@ -16,29 +16,6 @@ title: Home
 
     {{ post.content }}
   </div>
-  {% endfor %}
-</div>
-{% endcomment %}
-
-<div class="posts">
-  {% for post in paginator.posts %}
-
-  	<div class="post">
-		
-			{% if post.file %}
-				<a href="{{ post.file }}"> <img src="{{site.baseurl}}assets/pdf.png" align="right"> </a>
-		  {% endif %}
-	    <h1 class="post-title">
-	      <a href="{{ post.url }}">{{ post.title }}</a>
-	    </h1>
-
-	    <span class="post-date">{{ post.date | date_to_string }}</span>
-			{% if post.excerpt %}
-		    {{ post.excerpt}}
-			{% endif %}
-		
-  	</div>
-
   {% endfor %}
 </div>
 
