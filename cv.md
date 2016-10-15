@@ -6,7 +6,6 @@ file: https://github.com/skulumani/kulumani_cv/raw/master/kulumani_cv.pdf
 mathjax: true
 ---
 
-
 ## Research Interests
 
 Geometric mechanics and control for aerospace systems.
@@ -34,9 +33,11 @@ SSPI | Most Innovative/Creative Project | 2015
 
 ## Publications
 
+* S. Kulumani and T. Lee, “Constrained geometric attitude control on \\( \mathsf{SO(3)} \\),” International Journal of Control, Automation, and Systems, submitted.
+
 * S. Kulumani and T. Lee, [“Low-Thrust Trajectory Design Using Reachability Sets near Asteroid 4769 Castalia,”]({% post_url 2016-08-20-2016AAS %}) in Proceedings of the AIAA/AAS Astrodynamics Specialists Conference, Long Beach, California, September 2016.
 
-* S. Kulumani, I. Hussein, C. Roscoe, M. Wilkins, and P. Schumacher, “Estimation of Information- Theoretic Quantities for Particle Clouds,” in Proceedings of the AIAA/AAS Astrodynamics Specialists Conference, Long Beach, California, September 2016.
+* S. Kulumani, I. Hussein, C. Roscoe, M. Wilkins, and P. Schumacher, [“Estimation of Information- Theoretic Quantities for Particle Clouds,”]({% post_url 2016-10-15-2016AAS-B %}) in Proceedings of the AIAA/AAS Astrodynamics Specialists Conference, Long Beach, California, September 2016.
 
 * S. Kulumani and T. Lee, “Systematic design of optimal low-thrust transfers for the three-body problem,” Acta Astronautica, submitted.
 
