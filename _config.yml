@@ -28,7 +28,8 @@ github:
   repo:           https://github.com/skulumani
   
 # Gems for Jekyll 
-gems: [jekyll-paginate]
+gems:             ['jekyll-paginate', 'jekyll-gist', 'jekyll-github-metadata']
+
 
 # Include hidden folder for keybase
 include: [".well-known"]
