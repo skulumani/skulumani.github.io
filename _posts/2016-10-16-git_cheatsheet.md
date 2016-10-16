@@ -3,7 +3,8 @@ layout: post
 title: "Git Cheatsheet"
 date: 2016-10-16
 excerpt: "A list of some helpful commands"
-categories: [software,git]
+category: [programming]
+tags: [git]
 ---
 
 Using Git
