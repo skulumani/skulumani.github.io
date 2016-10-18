@@ -48,7 +48,6 @@ body {
 }
 
 html {
-  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -60,15 +59,15 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #9da5b4;
+  background-color: #282c34;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #528bff;
   text-decoration: none;
 }
 a strong {
@@ -82,10 +81,11 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+  padding-top: 1rem;
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #d7dae0;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -111,7 +111,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: #b4bdc1;
 }
 
 
@@ -133,14 +133,14 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #9da5b4;
+  border-bottom: 1px solid #9da5b4;
 }
 
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: #555;
+  color: #b4bdc1;
   text-transform: uppercase;
 }
 abbr[title] {
@@ -157,7 +157,7 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #f9f9f9;
+  background-color: #333842;
   border-radius: 3px;
 }
 pre {
@@ -168,17 +168,21 @@ pre {
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
-  white-space: pre;
+  white-space: pre-wrap;
   word-break: break-all;
-  word-wrap: normal;
-  background-color: #f9f9f9;
-	overflow: auto;
+  word-wrap: break-word;
+  background-color: #333842;
 }
 pre code {
   padding: 0;
   font-size: 100%;
   color: inherit;
   background-color: transparent;
+
+  display: block;
+  white-space: pre;
+  overflow-x: auto;
+  word-wrap: normal;
 }
 
 /* Pygments via Jekyll */
@@ -216,8 +220,8 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: #586173;
+  border-left: .25rem solid #586173;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -240,17 +244,17 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #21252b;
   border-collapse: collapse;
 }
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #21252b;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: #333842;
 }
 
 
@@ -276,8 +280,8 @@ tbody tr:nth-child(odd) th {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  color: #717171;
-  background-color: #f9f9f9;
+  color: #9da5b4;
+  background-color: #333842;
 }
 
 
@@ -310,10 +314,10 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #9da5b4;
 }
 .masthead-title a {
-  color: #505050;
+  color: #9da5b4;
 }
 .masthead-title small {
   font-size: 75%;
@@ -339,7 +343,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #d7dae0;
 }
 .page-title,
 .post-title {
@@ -351,7 +355,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #9da5b4;
 }
 
 /* Related posts */
@@ -391,7 +395,6 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
