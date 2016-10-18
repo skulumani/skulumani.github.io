@@ -18,7 +18,7 @@ author:
   name:           'Shankar Kulumani'
   url:            https://skulumani.github.io
 
-paginate:         10
+paginate:         5
 
 # Custom vars
 version:          0.1
