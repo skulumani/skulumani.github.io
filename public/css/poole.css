@@ -81,6 +81,7 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+  padding-top: 1rem;
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
@@ -167,7 +168,7 @@ pre {
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
-  white-space: pre;
+  white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
   background-color: #333842;
@@ -177,6 +178,11 @@ pre code {
   font-size: 100%;
   color: inherit;
   background-color: transparent;
+
+  display: block;
+  white-space: pre;
+  overflow-x: auto;
+  word-wrap: normal;
 }
 
 /* Pygments via Jekyll */
