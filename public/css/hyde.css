@@ -98,6 +98,14 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+.sidebar-nav-icons {
+  margin-top: 0.4rem;
+  display: inline-block;
+  line-height: 1.75;
+  height: 1.75;
+  vertical-align: bottom;
+}
+
 
 /* Sticky sidebar
  *
