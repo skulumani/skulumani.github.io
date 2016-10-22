@@ -43,11 +43,17 @@ Get the version of Git:
 `git --version`
 
 Create an alias (shortcut) for `git status`:
+
 `git config --global alias.st status`
 
+Initial git config:
+
 `git config --global user.name "Name"`
+
 `git config --global user.email email@email.com`
-`git config --global core.editor subl`
+
+`git config --global core.editor 'subl -w'`
+
 `git config --list`
 
 
@@ -245,16 +251,25 @@ Show oneline-summary of the last three commits:
 `git log --oneline -3`
 
 Show only custom commits:
+
 `git log --author="Sven"`
+
 `git log --grep="Message"`
+
 `git log --until=2013-01-01`
+
 `git log --since=2013-01-01`
 
 Show only custom data of commit:
+
 `git log --format=short`
+
 `git log --format=full`
+
 `git log --format=fuller`
+
 `git log --format=email`
+
 `git log --format=raw`
 
 Show changes:
@@ -295,26 +310,37 @@ Compare branches like above:
 `git diff --color-words master..branchname^`
 
 Compare commits:
+
 `git diff 6eb715d`
+
 `git diff 6eb715d..HEAD`
+
 `git diff 6eb715d..537a09f`
 
 Compare commits of file:
+
 `git diff 6eb715d index.html`
+
 `git diff 6eb715d..537a09f index.html`
 
 Compare without caring about spaces:
+
 `git diff -b 6eb715d..HEAD` or:
+
 `git diff --ignore-space-change 6eb715d..HEAD`
 
 Compare without caring about all spaces:
+
 `git diff -w 6eb715d..HEAD` or:
+
 `git diff --ignore-all-space 6eb715d..HEAD`
 
 Useful comparings:
+
 `git diff --stat --summary 6eb715d..HEAD`
 
 Blame:
+
 `git blame -L10,+1 index.html`
 
 
@@ -383,20 +409,27 @@ Merge fetched commits:
 `git merge origin/master`
 
 Clone to localhost:
+
 `git clone https://github.com/user/project.git` or:
+
 `git clone ssh://user@domain.com/~/dir/.git`
 
 Clone to localhost folder:
+
 `git clone https://github.com/user/project.git ~/dir/folder`
 
 Clone to current folder:
+
 `git clone //server/share .`
 
 Clone specific branch to localhost:
+
 `git clone -b branchname https://github.com/user/project.git`
 
 Delete remote branch (push nothing):
+
 `git push origin :branchname` or:
+
 `git push origin --delete branchname`
 
 
