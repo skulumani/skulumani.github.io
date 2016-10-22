@@ -32,7 +32,6 @@
  */
 
 html {
-  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
@@ -57,8 +56,8 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+  color: #9da5b4;
+  background-color: #21252b;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -80,7 +79,6 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  /* font-family: "Abril Fatface", serif; */
   font-family: "Roboto", sans-serif;
   font-size: 3.25rem;
 }
@@ -100,6 +98,14 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+.sidebar-nav-icons {
+  margin-top: 0.4rem;
+  display: inline-block;
+  line-height: 1.75;
+  height: 1.75;
+  vertical-align: bottom;
+}
+
 
 /* Sticky sidebar
  *
