@@ -6,7 +6,7 @@ tags: [latex]
 excerpt: "A template and class file to automatically format a PhD/MS thesis for GWU"
 ---
 
-Dowload [here](https://github.com/skulumani/thesis-gwu)
+Download [here](https://github.com/skulumani/thesis-gwu)
 
 ## Description
 
