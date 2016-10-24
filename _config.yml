@@ -4,7 +4,7 @@ markdown: 	      kramdown
 highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
+permalink:        /:year/:month/:title
 # this has been deprecated in v3.0 relative_permalinks: true 
 
 # Setup
