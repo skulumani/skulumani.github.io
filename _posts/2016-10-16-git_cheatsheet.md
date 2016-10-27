@@ -482,3 +482,16 @@ lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(
 lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
 lg = !"git lg1"
 ~~~~
+
+[Splitting up a large repo](https://help.github.com/articles/splitting-a-subfolder-out-into-a-new-repository/)
+----------------------------------------
+1. Create a new directory for the files you want to keep
+2. Clone the large repo into this new folder
+3. `git filter-branch --prune-empty --subdirectory-filter FOLDER-NAME BRANCH-NAME` where:
+  * `FOLDER-NAME` is the folder in the repo you want to keep/split away
+  * `BRANCH-NAME` is the branch you want
+4. Create a new repo for the split directory
+5. Change the remote and push
+  * `git remote set-url origin https://github.com/USERNAME/NEW-REPOSITORY-NAME.git`
+  * `git push origin --all`
+6. Profit
