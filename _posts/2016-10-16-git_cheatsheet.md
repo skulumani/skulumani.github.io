@@ -495,3 +495,12 @@ lg = !"git lg1"
   * `git remote set-url origin https://github.com/USERNAME/NEW-REPOSITORY-NAME.git`
   * `git push origin --all`
 6. Profit
+
+Pushing to multiple remotes at once
+-----------------------------------------
+
+~~~~
+git remote set-url origin --push --add user1@repo1
+git remote set-url origin --push --add user2@repo2
+git remote -v
+~~~~
