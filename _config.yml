@@ -35,3 +35,11 @@ gems:             ['jekyll-paginate', 'jekyll-gist', 'jekyll-github-metadata']
 
 # Include hidden folder for keybase
 include: [".well-known"]
+
+# Social media links
+twitter_username:     skulumani
+github_username:      skulumani
+linkedin_username:    skulumani
+google_plus_username: 
+facebook_username:    
+dribbble_username:
