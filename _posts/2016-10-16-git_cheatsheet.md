@@ -162,6 +162,9 @@ Create and change to new branch:
 Rename branch:
 `git branch -m branchname new_branchname` or:
 `git branch --move branchname new_branchname`
+`git push origin :old_name new_name`
+`git push origin -u new_name`
+`git remote update --prune` remove old branches from the remote
 
 Show all completely merged branches with current branch:
 `git branch --merged`
