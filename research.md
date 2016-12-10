@@ -8,7 +8,7 @@ title: Research
 
 {% if post.category contains 'research' %}
 	{% if post.file %}
-		<a href="{{ post.file }}"> <img src="{{site.baseurl}}assets/pdf32.png" align="right"> </a>
+		<a href="https://docs.google.com/viewer?url={{ post.file }}"> <img src="{{site.baseurl}}assets/pdf32.png" align="right"> </a>
   {% endif %}
   <a href="{{ post.url }}">{{ post.title }}</a>
 	<hr/>
