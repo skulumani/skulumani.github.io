@@ -14,10 +14,12 @@ Using the Hyde template created by Mark Otto https://github.com/poole/hyde
 ~~~
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
+rvm install ruby-2.3.0-dev
+sudo apt-get install nodejs
 ~~~
 * Install bundler
 ~~~
-gem install bundler
+gem install bundler 
 ~~~
 * Clone repo and navigate to the directory
 ~~~
