@@ -4,7 +4,7 @@ title: "Git Cheatsheet"
 date: 2016-10-16
 excerpt: "A list of some helpful commands"
 category: [programming]
-tags: [git]
+tag: [hobby, git]
 ---
 
 Using Git

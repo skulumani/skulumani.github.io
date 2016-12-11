@@ -2,7 +2,7 @@
 layout: post
 title: "GWU Thesis Class"
 date: 2016-10-23
-tags: [latex]
+tags: [hobby, latex]
 excerpt: "A template and class file to automatically format a PhD/MS thesis for GWU"
 ---
 
