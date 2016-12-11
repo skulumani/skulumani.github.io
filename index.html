@@ -32,7 +32,9 @@ title: Home
 	      <a href="{{ post.url }}">{{ post.title }}</a>
 	    </h2>
 
-	    <span class="post-date">{{ post.date | date_to_string }}</span>
+      {% include tags_for_page.html %}
+
+	    <span class="post-date">{{ post.date | date_to_string }} {{ tags_content }}</span>
 			{% if post.excerpt %}
 		    {{ post.excerpt}}
 			{% endif %}
