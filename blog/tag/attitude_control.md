@@ -1,4 +1,4 @@
 ---
 layout: blog_by_tag
-tag: attitude-control
+tag: attitude_control
 ---
