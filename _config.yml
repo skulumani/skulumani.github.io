@@ -37,9 +37,11 @@ gems:             ['jekyll-paginate', 'jekyll-gist', 'jekyll-github-metadata']
 include: [".well-known"]
 
 # Social media links
-twitter_username:     skulumani
-github_username:      skulumani
-linkedin_username:    skulumani
-google_plus_username: 
-facebook_username:    
-dribbble_username:
+twitter_username:           skulumani
+github_username:            skulumani
+linkedin_username:          skulumani
+academia_username:          ShankarKulumani
+mendeley_username:          shankar-kulumani
+orcid_username:             0000-0002-7822-0471
+research_gate_username:     Shankar_Kulumani
+google_scholar_username:    MOLoAf4AAAAJ
