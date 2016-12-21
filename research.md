@@ -34,6 +34,10 @@ More:
 <a href="https://www.researchgate.net/profile/{{ site.research_gate_username }}"><i class="ai ai-researchgate fa-lg"></i></a>
 {% endif %}
 
+{% if site.arxiv_username %}
+<a href="https://arxiv.org/a/{{ site.arxiv_username }}.html"><i class="ai ai-arxiv fa-lg"></i></a>
+{% endif %}
+
 {% if site.google_scholar_username %}
 <a href="https://scholar.google.com/citations?hl=en&user={{ site.google_scholar_username }}"><i class="ai ai-google-scholar fa-lg"></i></a>
 {% endif %}
