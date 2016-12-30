@@ -11,7 +11,7 @@ permalink:        /:year/:month/:title
 title:            Shankar Kulumani
 tagline:          'PhD Candidate'
 description:      'A personal site highlighting my research and interests.'
-url:              https://shankarkulumani.com
+url:              "https://skulumani.gitlab.io"
 enforce_ssl:      www.shankarkulumani.com 
 baseurl:          /
 
@@ -31,11 +31,11 @@ github:
 repository: skulumani/skulumani.github.io
  
 # Gems for Jekyll 
-gems:             ['jekyll-paginate', 'jekyll-gist', 'jekyll-github-metadata']
-
+gems:             ['jekyll-paginate', 'jekyll-gist']
 
 # Include hidden folder for keybase
 include: [".well-known"]
+exclude: [vendor, 'Gemfile', 'Gemfile.lock']
 
 # Social media links
 twitter_username:           skulumani
