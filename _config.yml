@@ -8,7 +8,7 @@ permalink:        /:year/:month/:title.html
 # this has been deprecated in v3.0 relative_permalinks: true 
 
 # Setup
-title:            Shankar Kulumani
+title:            Shankar Kulumani 
 tagline:          'PhD Candidate'
 description:      'A personal site highlighting my research and interests.'
 url:              "https://shankarkulumani.com"
@@ -18,6 +18,7 @@ baseurl:          /
 author:
   name:           'Shankar Kulumani'
   url:            https://shankarkulumani.com
+  twitter:        skulumani
 
 paginate:         5
 
@@ -31,7 +32,10 @@ github:
 repository: skulumani/skulumani.github.io
  
 # Gems for Jekyll 
-gems:             ['jekyll-paginate', 'jekyll-gist']
+gems:
+  - 'jekyll-paginate'
+  - 'jekyll-gist'
+  - 'jekyll-seo-tag'
 
 # Include hidden folder for keybase
 include: [".well-known"]
@@ -47,3 +51,17 @@ orcid_username:             0000-0002-7822-0471
 research_gate_username:     Shankar_Kulumani
 google_scholar_username:    MOLoAf4AAAAJ
 arxiv_username:             kulumani_s_1
+
+# SEO Optimization
+# SEO
+twitter:
+  username:           skulumani
+  url:                https://twitter.com/skulumani
+social:
+  name:               Shankar Kulumani
+  links:
+    - https://linkedin.com/in/skulumani
+    - https://github.com/skulumani
+    - https://twitter.com/skulumani
+    - https://plus.google.com/+ShankarKulumani
+    - https://keybase.io/skulumani
