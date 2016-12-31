@@ -1,0 +1,33 @@
+# requiring the environment of Ruby 2.3.x
+image: ruby:2.3
+
+# add bundle cache to 'vendor' for speeding up builds
+cache:
+  paths: 
+    - vendor/
+
+before_script:
+  - bundle install --path vendor
+
+
+# add a job called 'test' and assign a folder to store the static site
+test:
+  stage: test
+  script:
+    - bundle exec jekyll build -d test/ # replacing 'public' for 'test'
+  artifacts:
+    paths:
+      - test # the 'test' job will generate a 'test/' folder containing your static site
+  except:
+    - gitlab 
+
+# the 'pages' job will deploy and build your site to the 'public' path
+pages:
+  stage: deploy
+  script:
+    - bundle exec jekyll build -d public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - gitlab # this job will affect only the 'master' branch
