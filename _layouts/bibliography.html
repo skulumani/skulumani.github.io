@@ -1,0 +1,26 @@
+---
+mathjax: true
+---
+{{reference}}
+
+<div id="{{key}}-materials">
+  <ul class="nav nav-pills">
+    {% if entry.abstract %}
+    <li><a data-toggle="collapse" href="#{{key}}-abstract">Abstract</a></li>
+    {% endif %}
+
+    {% if link %}
+    <li><a href="{{link}}">Download</a></li>
+    {% endif %}
+
+    {% if entry.url %}
+    <li>URL: <a href="{{entry.url}}">{{entry.url}}</a></li>
+    {% endif %}
+
+    {% if entry.doi %}
+    <li>DOI: <a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a></li>
+    {% endif %}
+
+  </ul>
+   
+</div>
