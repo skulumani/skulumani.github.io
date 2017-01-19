@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Research
+title: Publications
 ---
 
+<!-- 
 <ul class="posts">
 {% for post in site.posts %}
 
@@ -14,7 +15,17 @@ title: Research
 	<hr/>
 {% endif %}
 {% endfor %}
-</ul>
+</ul> 
+-->
+
+### 2016
+
+{% bibliography --query @*[year=2016] %}
+
+### 2015
+
+{% bibliography --query @*[year=2015] %}
+
 
 <p>
 More:

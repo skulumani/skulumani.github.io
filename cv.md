@@ -31,21 +31,3 @@ GWU | Hetherington Family Scholarship | 2016
 GWU | R&D Showcase - 1st Place Experimental Research | 2016
 SSPI | Most Innovative/Creative Project | 2015
 
-## Jekyll-Scholar testing
-
-<!-- ### 2016
-
-{% bibliography --query @*[year=2016] %} -->
-
-### 2015
-
-{% bibliography --query @*[year=2015] %}
-
-<!-- <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div> -->
