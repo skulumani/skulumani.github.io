@@ -4,23 +4,23 @@ mathjax: true
 {{reference}}
 
 <div id="{{key}}-materials">
-  <ul class="nav nav-pills">
-    {% if entry.abstract %}
-    <li><a data-toggle="collapse" href="#{{key}}-abstract">Abstract</a></li>
-    {% endif %}
+<div class="dropdown">
+  <button class="dropbtn">Files</button>
+  <div class="dropdown-content">
+    {% if entry.paper %} <a href="https://docs.google.com/viewer?url={{ entry.paper}}">Paper</a> {% endif %}
+    {% if entry.poster %} <a href="https://docs.google.com/viewer?url={{ entry.poster}}">Poster</a> {% endif %}
+    {% if entry.presentation %} <a href="https://docs.google.com/viewer?url={{ entry.presentation}}">Presentation</a> {% endif %}
+  </div>
+</div>
 
-    {% if link %}
-    <li><a href="{{link}}">Download</a></li>
-    {% endif %}
-
-    {% if entry.url %}
-    <li>URL: <a href="{{entry.url}}">{{entry.url}}</a></li>
-    {% endif %}
-
-    {% if entry.doi %}
-    <li>DOI: <a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a></li>
-    {% endif %}
-
-  </ul>
+<div class="dropdown">
+  <button class="dropbtn">Publisher</button>
+  <div class="dropdown-content">
+    {% if entry.preprint %} <a href="{{ entry.preprint }}">Preprint</a> {% endif %}
+    {% if entry.url %} <a href="{{ entry.url }}">Publisher</a> {% endif %}
+    {% if entry.doi %} <a href="http://dx.doi.org/{{entry.doi}}">DOI</a> {% endif %}
+    {% if entry.blog %} <a href="#blog">Blog Post</a> {% endif %}
+  </div>
+</div>
    
 </div>
