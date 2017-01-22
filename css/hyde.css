@@ -53,14 +53,14 @@ html {
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
-.sidebar {
+#bootstrap-overrides .sidebar {
   text-align: center;
   padding: 2rem 1rem;
   color: #9da5b4;
   background-color: #21252b;
 }
 @media (min-width: 48em) {
-  .sidebar {
+  #bootstrap-overrides .sidebar {
     position: fixed;
     top: 0;
     left: 0;
@@ -71,12 +71,12 @@ html {
 }
 
 /* Sidebar links */
-.sidebar a {
+#bootstrap-overrides .sidebar a {
   color: #fff;
 }
 
 /* About section */
-.sidebar-about h1 {
+#bootstrap-overrides .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
   font-family: "Roboto", sans-serif;
@@ -84,21 +84,21 @@ html {
 }
 
 /* Sidebar nav */
-.sidebar-nav {
+#bootstrap-overrides .sidebar-nav {
   margin-bottom: 1rem;
 }
-.sidebar-nav-item {
+#bootstrap-overrides .sidebar-nav-item {
   display: block;
   line-height: 1.75;
 }
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
+#bootstrap-overrides a.sidebar-nav-item:hover,
+#bootstrap-overrides a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
-.sidebar-nav-item.active {
+#bootstrap-overrides .sidebar-nav-item.active {
   font-weight: bold;
 }
-.sidebar-nav-icons {
+#bootstrap-overrides .sidebar-nav-icons {
   margin-top: 0.4rem;
   display: inline-block;
   line-height: 1.75;
@@ -114,7 +114,7 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48em) {
-  .sidebar-sticky {
+  #bootstrap-overrides .sidebar-sticky {
     position: absolute;
     right:  1rem;
     bottom: 1rem;
@@ -129,13 +129,13 @@ a.sidebar-nav-item:focus {
  * with a 25%-wide `.sidebar`.
  */
 
-.content {
+#bootstrap-overrides .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
 }
 
 @media (min-width: 48em) {
-  .content {
+  #bootstrap-overrides .content {
     max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
@@ -143,7 +143,7 @@ a.sidebar-nav-item:focus {
 }
 
 @media (min-width: 64em) {
-  .content {
+  #bootstrap-overrides .content {
     margin-left: 22rem;
     margin-right: 4rem;
   }
@@ -157,7 +157,7 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48em) {
-  .layout-reverse .sidebar {
+  #bootstrap-overrides .layout-reverse .sidebar {
     left: auto;
     right: 0;
   }
