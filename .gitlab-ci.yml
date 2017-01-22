@@ -19,7 +19,7 @@ test:
     paths:
       - test # the 'test' job will generate a 'test/' folder containing your static site
   except:
-    - gitlab 
+    - master 
 
 # the 'pages' job will deploy and build your site to the 'public' path
 pages:
@@ -30,4 +30,4 @@ pages:
     paths:
       - public
   only:
-    - gitlab # this job will affect only the 'master' branch
+    - master # this job will affect only the 'master' branch
