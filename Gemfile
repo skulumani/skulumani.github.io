@@ -7,3 +7,4 @@ gem "jekyll-seo-tag"
 gem "pygments.rb"
 gem "redcarpet"
 gem 'therubyracer'
+gem 'jekyll-scholar'

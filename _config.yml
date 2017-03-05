@@ -24,7 +24,7 @@ paginate:         5
 
 # Custom vars
 version:          0.1
-date:			  "2016-12-29"
+date:			        "2017-03-05"
 
 github:
   repo:           https://github.com/skulumani
@@ -36,6 +36,7 @@ gems:
   - 'jekyll-paginate'
   - 'jekyll-gist'
   - 'jekyll-seo-tag'
+  - 'jekyll/scholar'
 
 # Include hidden folder for keybase
 include: [".well-known"]
@@ -65,3 +66,32 @@ social:
     - https://twitter.com/skulumani
     - https://plus.google.com/+ShankarKulumani
     - https://keybase.io/skulumani
+
+# Jekyll-scholar settings
+scholar:
+  dependent/style: ieee
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  # group_by: none
+  # group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bibliography
+
+  replace_strings: true
+  # join_strings:    true
+
+  # use_raw_bibtex_entry: true
+  # bibtex_filters:
+  # - superscript
+  # - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"

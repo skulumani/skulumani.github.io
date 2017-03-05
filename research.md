@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Research
+title: Publications
+mathjax: true
 ---
 
+<!-- 
 <ul class="posts">
 {% for post in site.posts %}
 
@@ -14,7 +16,15 @@ title: Research
 	<hr/>
 {% endif %}
 {% endfor %}
-</ul>
+</ul> 
+-->
+
+{% for year in (2013..2017) reversed %}
+### {{ year }}
+
+{% bibliography --query @*[year={{ year }}] %}
+
+{% endfor %}
 
 <p>
 More:
