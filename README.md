@@ -1,5 +1,5 @@
-# skulumani.github.io
-Personal website located at http://skulumani.github.io
+# shankarkulumani.com
+Personal website located at http://shankarkulumani.com
 
 Using the Hyde template created by Mark Otto https://github.com/poole/hyde
 
@@ -30,3 +30,12 @@ bundle update
 ~~~
 bundle exec jekyll serve
 ~~~
+
+## Steps to run locally
+
+1. Make sure you're using a login bash shell via `$ bash -l`
+2. 
+
+## Let's Encrypt instructions
+
+## Domain Name instructions
