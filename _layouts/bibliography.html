@@ -5,22 +5,45 @@ mathjax: true
 
 <div id="{{key}}-materials">
 <div class="dropdown">
-  <button class="dropbtn">Files</button>
+  <button class="dropbtn">PDFs</button>
   <div class="dropdown-content">
     {% if entry.paper %} <a href="https://docs.google.com/viewer?url={{ entry.paper}}">Paper</a> {% endif %}
-    {% if entry.poster %} <a href="https://docs.google.com/viewer?url={{ entry.poster}}">Poster</a> {% endif %}
     {% if entry.presentation %} <a href="https://docs.google.com/viewer?url={{ entry.presentation}}">Presentation</a> {% endif %}
+    {% if entry.poster %} <a href="https://docs.google.com/viewer?url={{ entry.poster}}">Poster</a> {% endif %}
   </div>
 </div>
 
 <div class="dropdown">
-  <button class="dropbtn">Publisher</button>
+  <button class="dropbtn">Links</button>
   <div class="dropdown-content">
+    {% if entry.blog %} <a href="{{ entry.blog }}">Blog Post</a> {% endif %}
     {% if entry.preprint %} <a href="{{ entry.preprint }}">Preprint</a> {% endif %}
     {% if entry.url %} <a href="{{ entry.url }}">Publisher</a> {% endif %}
     {% if entry.doi %} <a href="http://dx.doi.org/{{entry.doi}}">DOI</a> {% endif %}
-    {% if entry.blog %} <a href="#blog">Blog Post</a> {% endif %}
   </div>
 </div>
-   
+
+<div class="dropdown">
+  <button class="dropbtn">Source</button>
+  <div class="dropdown-content">
+    {% if entry.paper_source %} <a href="{{ entry.paper_source }}">Paper</a> {% endif %}
+    {% if entry.presentation_source %} <a href="{{ entry.presentation_source }}">Slides</a> {% endif %}
+    {% if entry.poster_source %} <a href="{{ entry.poster_source }}">Poster</a> {% endif %}
+    {% if entry.code_source %} <a href="{{ entry.code_source }}">Code</a> {% endif %}
+  </div>
+</div>
+
+<div class="button">
+  <button class="btn" onclick="hideDiv('hiddenBibtex_{{ entry.key }}')">BibTeX</button>
+  <div id="hiddenBibtex_{{ entry.key }}" class="hiddenDiv">
+    <div class="highlighter-rouge">
+      <pre class="highlight">
+        <code>{{entry.bibtex}}</code>
+      </pre>
+    </div>
+  </div>
+</div>
+
+
+
 </div>

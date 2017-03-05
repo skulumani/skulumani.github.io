@@ -24,7 +24,7 @@ paginate:         5
 
 # Custom vars
 version:          0.1
-date:			  "2016-12-29"
+date:			        "2017-03-05"
 
 github:
   repo:           https://github.com/skulumani
@@ -69,7 +69,7 @@ social:
 
 # Jekyll-scholar settings
 scholar:
-  dependent/style: ieee-url
+  dependent/style: ieee
   locale: en
 
   sort_by: year

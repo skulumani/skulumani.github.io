@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publications
+mathjax: true
 ---
 
 <!-- 
@@ -18,14 +19,12 @@ title: Publications
 </ul> 
 -->
 
-### 2016
+{% for year in (2013..2017) reversed %}
+### {{ year }}
 
-{% bibliography --query @*[year=2016] %}
+{% bibliography --query @*[year={{ year }}] %}
 
-### 2015
-
-{% bibliography --query @*[year=2015] %}
-
+{% endfor %}
 
 <p>
 More:
