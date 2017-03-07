@@ -38,4 +38,24 @@ bundle exec jekyll serve
 
 ## Let's Encrypt instructions
 
+* [Tutorial](https://michaelgoerz.net/notes/accessing-a-jupyter-notebook-server-through-reverse-port-forwarding.html)
+* [Gitlab Tutorial](https://about.gitlab.com/2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/)
+1. Install `letsencrypt`
+~~~
+$ sudo apt-get update
+$ sudo apt-get install letsencrypt
+~~~
+2. Generate a certificate
+~~~
+$ letsencrypt-auto certonly --standalone --email hi@perrohunter.com -d a.4ph.in
+~~~
+3. For Gitlab webroot certificates
+~~~
+./letsencrypt-auto certonly -a manual -d YOURDOMAIN.org
+~~~
+4. Place the challenge on the website and push
+5. Copy `fullchain.pem` and `privkey.pem` to Gitlab
+
+To renew just run the steps again!
+
 ## Domain Name instructions
