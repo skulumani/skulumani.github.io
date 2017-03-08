@@ -40,7 +40,7 @@ bundle exec jekyll serve
 
 * [Tutorial](https://michaelgoerz.net/notes/accessing-a-jupyter-notebook-server-through-reverse-port-forwarding.html)
 * [Gitlab Tutorial](https://about.gitlab.com/2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/)
-1. Install `letsencrypt`
+1. Install `letsencrypt` or clone from the repo `git clone https://github.com/letsencrypt/letsencrypt` 
 ~~~
 $ sudo apt-get update
 $ sudo apt-get install letsencrypt
