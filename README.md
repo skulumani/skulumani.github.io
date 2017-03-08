@@ -47,14 +47,15 @@ $ sudo apt-get install letsencrypt
 ~~~
 2. Generate a certificate
 ~~~
-$ letsencrypt-auto certonly --standalone --email hi@perrohunter.com -d a.4ph.in
+$ letsencrypt-auto certonly --standalone --email shanks.k@gmail.com -d shankarkulumani.com
 ~~~
 3. For Gitlab webroot certificates
 ~~~
-./letsencrypt-auto certonly -a manual -d YOURDOMAIN.org
+./letsencrypt-auto certonly -a manual -d shankarkulumani.com -d www.shankarkulumani.com
 ~~~
 4. Place the challenge on the website and push
-5. Copy `fullchain.pem` and `privkey.pem` to Gitlab
+5. Copy `fullchain.pem` to Certificate and `privkey.pem` to Key on Gitlab.
+Both are located at `cat /etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem`
 
 To renew just run the steps again!
 
