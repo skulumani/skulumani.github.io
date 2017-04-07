@@ -24,10 +24,12 @@ SDTW/SDDR | Deputy Space Vehicles Lead |  2009 -  2011
 
 ## Awards
 
+GWU | [Research Days - 1st Place](http://researchdays.gwu.edu/) | 2017 
+GWU | [R&D Showcase - Runner Up Theoretical Research](https://www.seas.gwu.edu/RDshowcase) | 2017 
 GWU | Graduate Research Fellowship | 2014-2016
 ACC | Best session presentation | 2016
 ACC | Student Travel Award | 2016
 GWU | Hetherington Family Scholarship | 2016
-GWU | R&D Showcase - 1st Place Experimental Research | 2016
+GWU | [R&D Showcase - 1st Place Experimental Research](https://www.seas.gwu.edu/student-research-development-winners-year#2016) | 2016
 SSPI | Most Innovative/Creative Project | 2015
 
