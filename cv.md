@@ -24,6 +24,7 @@ SDTW/SDDR | Deputy Space Vehicles Lead |  2009 -  2011
 
 ## Awards
 
+SSPI | Most Innovative Project | 2017
 GWU | [Research Days - 1st Place](http://researchdays.gwu.edu/) | 2017 
 GWU | [R&D Showcase - Runner Up Theoretical Research](https://www.seas.gwu.edu/RDshowcase) | 2017 
 GWU | Graduate Research Fellowship | 2014-2016
