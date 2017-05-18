@@ -42,20 +42,13 @@ bundle exec jekyll serve
 * [Gitlab Tutorial](https://about.gitlab.com/2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/)
 1. Install `letsencrypt` or clone from the repo `git clone https://github.com/letsencrypt/letsencrypt` 
 ~~~
-$ sudo apt-get update
-$ sudo apt-get install letsencrypt
-~~~
-2. Generate a certificate
-~~~
-$ letsencrypt-auto certonly --standalone --email shanks.k@gmail.com -d shankarkulumani.com
-~~~
-3. For Gitlab webroot certificates
+2. For Gitlab webroot certificates
 ~~~
 ./letsencrypt-auto certonly -a manual -d shankarkulumani.com -d www.shankarkulumani.com
 ~~~
-4. Place the challenge on the website and push
+3. Place the challenges in the appropriate locaiton on the website and push
 5. Copy `fullchain.pem` to Certificate and `privkey.pem` to Key on Gitlab.
-Both are located at `cat /etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem`
+Both are located at `sudo cat /etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem`
 
 To renew just run the steps again!
 
