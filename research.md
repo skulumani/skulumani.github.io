@@ -1,55 +1,38 @@
 ---
 layout: page
-title: Publications
+title: Research
 mathjax: true
 ---
 
-<!-- 
-<ul class="posts">
-{% for post in site.posts %}
+My research is focused on applying geometric mechanics and control to aerospace systems.
+In my previous work in the US Air Force, I had the opportunity to work on a variety of research and operational projects.
+During my PhD career I have continued this trend and developed theoretical methods for orbital transfers of spacecraft using low-thrust propulsion systems.
 
-{% if post.category contains 'research' %}
-	{% if post.file %}
-		<a href="https://docs.google.com/viewer?url={{ post.file }}"> <img src="{{site.baseurl}}assets/pdf32.png" align="right"> </a>
-  {% endif %}
-  <a href="{{ post.url }}">{{ post.title }}</a>
-	<hr/>
-{% endif %}
-{% endfor %}
-</ul> 
--->
+### [George Washington University](http://fdcl.seas.gwu.edu/)
 
-{% for year in (2013..2017) reversed %}
-### {{ year }}
+* [Low-thrust]({% link _posts/2015-08-10-2015AAS.md %}) [orbital]({% link _posts/2016-08-20-2016AAS.md %}) transfers
 
-{% bibliography --query @*[year={{ year }}] %}
+    Developed geometric methods to determine low-thrust orbital transfers in the three-body problem and around asteroids.
 
-{% endfor %}
+* [Constrained Attitude Control]({% link _posts/2015-10-09-2016ACC.md %})
 
-<p>
-More:
-{% if site.academia_username %}
-<a href="https://independent.academia.edu/{{ site.academia_username }}"><i class="ai ai-academia fa-lg"></i></a> 
-{% endif %}
+    Geometric attitude control for a rigid body which allows for re-orientation while avoiding pointing at obstacles.
 
-{% if site.mendeley_username %}
-<a href="https://www.mendeley.com/profiles/{{ site.mendeley_username }}"><i class="ai ai-mendeley fa-lg"></i></a>
-{% endif %}
+* [Estimation]({% link _posts/2016-10-15-2016AAS-B.md %})
 
-{% if site.orcid_username %}
-<a href="http://orcid.org/{{ site.orcid_username }}"><i class="ai ai-orcid fa-lg"></i></a>
-{% endif %}
+    Particle filter techniques which improve space situational awareness.
 
-{% if site.research_gate_username %}
-<a href="https://www.researchgate.net/profile/{{ site.research_gate_username }}"><i class="ai ai-researchgate fa-lg"></i></a>
-{% endif %}
+### [Air Force Research Laboratory](http://www.kirtland.af.mil/Units/AFRL-Space-Vehicles-Directorate/)
 
-{% if site.arxiv_username %}
-<a href="https://arxiv.org/a/{{ site.arxiv_username }}.html"><i class="ai ai-arxiv fa-lg"></i></a>
-{% endif %}
+* [ANGELS](http://www.kirtland.af.mil/Portals/52/documents/AFD-131204-039.pdf?ver=2016-06-28-105617-297)
 
-{% if site.google_scholar_username %}
-<a href="https://scholar.google.com/citations?hl=en&user={{ site.google_scholar_username }}"><i class="ai ai-google-scholar fa-lg"></i></a>
-{% endif %}
+    Developed computational tools for performing orbit determination and sensor characterization in support of on-orbit operations.
 
-</p>
+* Attitude Control testbed
+    
+    Developed in situ attitude control testbed using the worlds largest air-bearing platform.
+
+* Geolocation using Time Difference of Arrival
+
+    Developed analytical and estimation based methods to enable geolocation of surface based transmissions using constellations of satellites.
+    
