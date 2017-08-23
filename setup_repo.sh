@@ -8,6 +8,7 @@ printf "Setting the origin remote to point to Github and Bitbucket:\n\n"
 printf "Github: $git_repo\n"
 printf "Gitlab: $gitlab_repo\n\n"
 
+git remote add origin $git_repo
 git remote set-url origin --push --add $gitlab_repo
 git remote set-url origin --push --add $git_repo
 
