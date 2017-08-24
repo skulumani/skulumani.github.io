@@ -12,9 +12,10 @@ Using the Hyde template created by Mark Otto https://github.com/poole/hyde
 
 * Install [RVM](https://rvm.io/)
 ~~~
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
 rvm install ruby-2.3.0-dev
+rvm install ruby --latest
 sudo apt-get install nodejs
 ~~~
 * Install bundler
@@ -34,7 +35,8 @@ bundle exec jekyll serve
 ## Steps to run locally
 
 1. Make sure you're using a login bash shell via `$ bash -l`
-2. 
+2. Install Ruby RVM and get `bundler` gems
+3. Run `bundle exec jekyll serve`
 
 ## Let's Encrypt instructions
 
