@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # add the correct remote repositories
-git_repo="git@github.com:skulumani/system_setup.git"
+git_repo="git@github.com:skulumani/skulumani.github.io.git"
 gitlab_repo="git@gitlab.com:skulumani/skulumani.gitlab.io.git"
 
 printf "Setting the origin remote to point to Github and Bitbucket:\n\n"
