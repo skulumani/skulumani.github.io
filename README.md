@@ -55,3 +55,6 @@ Both are located at `sudo cat /etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem
 To renew just run the steps again!
 
 ## Domain Name instructions
+
+The domain name is on Namecheap, which points to netlify.com which does the actual hosting. 
+Also netlify automatically sets up LetsEncrypt so it's very easy now. 
