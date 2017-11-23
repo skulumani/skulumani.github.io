@@ -8,3 +8,4 @@ gem "pygments.rb"
 gem "redcarpet"
 gem 'therubyracer'
 gem 'jekyll-scholar'
+gem 'unicode'
