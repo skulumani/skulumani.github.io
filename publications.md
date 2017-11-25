@@ -3,6 +3,12 @@ layout: page
 title: Publications
 mathjax: true
 ---
+$$
+\newcommand{\SO}{\mathsf{SO(3)}}
+\newcommand{\bracket}[1]{\left[ #1 \right]}
+\newcommand{\parenth}[1]{\left( #1 \right)}
+\newcommand{\tr}[1]{\mathrm{tr}\negthickspace\bracket{#1}}
+$$
 
 <!-- 
 <ul class="posts">
