@@ -5,5 +5,9 @@ rvm:
     - 2.4.1
     - 2.4.2
     - 2.3.3
+install: bundle install
 script: bash ./script/travis_build.sh
+env:
+    global:
+        - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speed up isntallation
 

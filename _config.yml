@@ -40,7 +40,7 @@ plugins:
 
 # Include hidden folder for keybase
 include: [".well-known"]
-exclude: [vendor, 'Gemfile', 'Gemfile.lock']
+exclude: [vendor, 'Gemfile', 'Gemfile.lock', script]
 
 # Social media links
 twitter_username:           skulumani
