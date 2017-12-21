@@ -11,13 +11,13 @@ permalink:        /:year/:month/:title.html
 title:            Shankar Kulumani 
 tagline:          'PhD Candidate'
 description:      'A personal site highlighting my research and interests.'
-url:              "https://shankarkulumani.com"
+url:              "https://www.shankarkulumani.com"
 enforce_ssl:      www.shankarkulumani.com 
 baseurl:          /
 
 author:
   name:           'Shankar Kulumani'
-  url:            https://shankarkulumani.com
+  url:            https://www.shankarkulumani.com
   twitter:        skulumani
 
 paginate:         5
