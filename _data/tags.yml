@@ -22,3 +22,5 @@ publication:
   name: Publication
 python:
   name: Python
+professional:
+  name: Professional
