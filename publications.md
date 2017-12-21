@@ -55,7 +55,7 @@ More:
 {% endif %}
 
 {% if site.google_scholar_username %}
-<a href="https://scholar.google.com/citations?hl=en&user={{ site.google_scholar_username }}"><i class="ai ai-google-scholar fa-lg"></i></a>
+<a href="https://scholar.google.com/citations?hl=en&user={{ site.google_scholar_username }}" data-proofer-ignore><i class="ai ai-google-scholar fa-lg"></i></a>
 {% endif %}
 
 </p>
