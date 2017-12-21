@@ -3,7 +3,7 @@ layout: post
 title: "Astrodynamics in Python"
 date: 2017-12-21
 tags: [astrodynamics, python]
-excerpt: "A comprehensive package of astrodynamics in Python"
+excerpt: "The start of a comprehensive package of astrodynamics in Python"
 ---
 | Build Status                             | Latest Release                                      | Version                                             | PyPi                                 | Last Commit                                                     | Activity                                                      |
 | :--------------------------------------: | :--------------------------:                        | :----:                                              | :----:                               | :------:                                                        | :------:                                                      |
