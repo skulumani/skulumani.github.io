@@ -1,5 +1,22 @@
+| Build Status                             | Latest Release                                      | Version                                            | Last Commit                                                    | Activity                                    |
+| :--------------------------------------: | :--------------------------:                        | :----:                                             | :------:                                                       | :------:                                    |
+| [![Travis][travis_shield]][travis]       | [![Github Release][release_shield]][github_release] | [![Github Version][version_shield]][github_version] | [![Github Last Commit][last_commit_shield]][github_last_commit] | [![Github commit activity][activity_shield]][github_activity] |
+
+
+[travis_shield]: https://travis-ci.org/skulumani/skulumani.github.io.svg?branch=master 
+[release_shield]: https://img.shields.io/github/release/skulumani/skulumani.github.io.svg
+[version_shield]: https://badge.fury.io/gh/skulumani%2Fskulumani.github.io.svg
+[last_commit_shield]: https://img.shields.io/github/last-commit/skulumani/skulumani.github.io.svg
+[activity_shield]: https://img.shields.io/github/commit-activity/y/skulumani/skulumani.github.io.svg
+
+[travis]: https://travis-ci.org/skulumani/skulumani.github.io
+[github_release]: https://github.com/skulumani/skulumani.github.io/releases/latest
+[github_version]: https://github.com/skulumani/skulumani.github.io/releases/latest
+[github_last_commit]: https://github.com/skulumani/skulumani.github.io/commits/master
+[github_activity]: https://github.com/skulumani/skulumani.github.io/graphs/commit-activity
+
 # shankarkulumani.com
-Personal website located at http://shankarkulumani.com
+Personal website located at https://shankarkulumani.com
 
 Using the Hyde template created by Mark Otto https://github.com/poole/hyde
 
