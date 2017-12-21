@@ -67,3 +67,5 @@ The only downside is that many of the very useful Jekyll gems are disabled on Gi
 Another approach, and the one that this site is using, is to use [Netlify](https://www.netlify.com/).
 It also offers a free web hosting service, but gives you more flexibility and features.
 
+For example, Netlify will set up your site with a free [Let's Encrypt](https://letsencrypt.org/) certificate, and even automatically update it without any hassle!
+
