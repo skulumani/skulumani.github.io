@@ -1,0 +1,9 @@
+sudo: false
+dist: trusty
+language: ruby
+rvm:
+    - 2.4.1
+    - 2.4.2
+    - 2.3.3
+script: bash ./script/travis_build.sh
+
