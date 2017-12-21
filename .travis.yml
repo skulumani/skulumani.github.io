@@ -1,13 +1,14 @@
-sudo: required
+sudo: false
 dist: trusty
 language: ruby
 rvm:
     - 2.4.1
     - 2.4.2
     - 2.3.3
-before_install:
-    - sudo update-ca-certificates
-    - sudo apt-get install -qq -y libcurl3-dev
+addons:
+    apt:
+        packages:
+            - libcurl4-openssl-dev
 install: bundle install
 script: bash ./script/travis_build.sh
 env:
