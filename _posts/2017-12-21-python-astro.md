@@ -70,11 +70,39 @@ predict.py 39.8 -77.0 0.05 -s 2017 12 21 -e 2017 12 25 -i ./tle.txt -o ./output.
 ~~~
 
 Which will find all visible satellites for your location, 39.8 N 77 W 0.50 km altitude, over the time span 2017/12/21 to 2017/12/25 and save the results to a text file `output.txt`
+It'll look a little something like this
 
+~~~
+THOR AGENA D R/B 00733
+PASS    MON/DAY    HR:MIN(UT)    RHO(KM)    AZ(DEG)    EL(DEG)    SAT          
+-------------------------------------------------------------------------------
+
+   0     12/ 19    00:19:60    1310.45      97.50      31.45    THOR AGENA D R/B
+   0     12/ 19    00:20:60    1211.00      73.66      35.65    THOR AGENA D R/B
+   0     12/ 19    00:21:60    1258.77      48.07      33.73    THOR AGENA D R/B
+   0     12/ 19    00:22:60    1439.01      28.68      27.45    THOR AGENA D R/B
+   1     12/ 19    14:14:60    1089.95     216.52      44.83    THOR AGENA D R/B
+   1     12/ 19    14:15:60    1396.79     209.31      30.46    THOR AGENA D R/B
+   2     12/ 20    01:26:60    1312.05     201.95      31.19    THOR AGENA D R/B
+   2     12/ 20    01:27:60    1071.62     220.51      42.71    THOR AGENA D R/B
+   2     12/ 20    01:28:60     968.92     255.63      50.32    THOR AGENA D R/B
+   2     12/ 20    01:29:60    1045.52     293.22      44.76    THOR AGENA D R/B
+   2     12/ 20    01:30:60    1268.92     314.17      33.38    THOR AGENA D R/B
+   3     12/ 20    13:42:60    1004.65     140.20      51.23    THOR AGENA D R/B
+   3     12/ 20    13:43:60    1224.60     161.63      37.43    THOR AGENA D R/B
+   4     12/ 21    00:54:60    1427.52     157.84      27.30    THOR AGENA D R/B
+   4     12/ 21    00:55:60    1095.54     154.54      41.28    THOR AGENA D R/B
+   4     12/ 21    00:56:60     853.71     143.30      63.23    THOR AGENA D R/B
+   4     12/ 21    00:57:60     790.80      39.77      77.78    THOR AGENA D R/B
+   4     12/ 21    00:58:60     943.38     358.62      53.13    THOR AGENA D R/B
+   4     12/ 21    00:59:60    1233.41     352.51      35.02    THOR AGENA D R/B
+~~~
+
+Which gives the time in UTC, range, azimuth, and elevation to see a satellite pass overhead.
 
 ### Inspiration
 
-Much of this code has been developed over several year from my previous coursework or professional experience.
+Much of this code has been developed over several years from my previous coursework or professional experience.
 I've started to combine it all into a single Python package for my own use, and anyone else who happens to find it useful.
 A large portion of the code is only possible due to the great work of [Dave Vallado](https://www.celestrak.com/software/vallado-sw.asp) and his book:
 
@@ -90,7 +118,7 @@ A large portion of the code is only possible due to the great work of [Dave Vall
 
 There are also several great tools for astrodynamics in Python that have served as great models for what I hope to achieve:
 
-* [`SpiceyPy`](https://github.com/AndrewAnnex/SpiceyPy) - a great package to interface with SPICE and a good model for a well constructed Python package
+* [`SpiceyPy`](https://github.com/AndrewAnnex/SpiceyPy) - a great package to interface with [SPICE](https://naif.jpl.nasa.gov/naif/toolkit.html) and a good model for a well constructed Python package
 * [`spacetrack`](https://github.com/python-astrodynamics/spacetrack) - another great package to download TLEs from [SpaceTrack](https://www.space-track.org)
 * [`numpy`](http://www.numpy.org/) - the core package for much of science in Python
 
