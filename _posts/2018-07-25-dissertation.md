@@ -23,13 +23,13 @@ However, prior to arrival only a coarse shape model is possible using ground bas
 
 | Ground Model | In-situ Model |
 :----------:|:-----------:|
-![](https://raw.githubusercontent.com/skulumani/dissertation/master/figures/mathematical_background/itokawa_radar_isometric.jpg) | ![](https://raw.githubusercontent.com/skulumani/dissertation/master/figures/mathematical_background/itokawa_isometric.jpg)
+![Ground Model](https://raw.githubusercontent.com/skulumani/dissertation/master/figures/mathematical_background/itokawa_radar_isometric.jpg) | ![In-situ model](https://raw.githubusercontent.com/skulumani/dissertation/master/figures/mathematical_background/itokawa_isometric.jpg)
 
 As a result, it would be ideal if the spacecraft has the capability to autonomously update the shape given new measurements. 
 [CGAL](https://www.cgal.org/) is utilized to perform many of the computational geometry operations, such as raycasting and mesh representation.
 This allows us to simulate LIDAR measurements of the surface and use these measurements to incrementally update the shape model.
 
-![](https://github.com/skulumani/dissertation/raw/master/figures/2018_SSPI/castalia_raycasting_plot.jpg)
+![Raycasting](https://github.com/skulumani/dissertation/raw/master/figures/2018_SSPI/castalia_raycasting_plot.jpg)
 
 Here are several videos demonstrating this process.
 Our approach provides an uncertainty metric which allows for a measure of the shape accuracy and is used to color the mesh.
