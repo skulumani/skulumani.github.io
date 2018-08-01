@@ -4,7 +4,7 @@ title: "Geometric Mechanics and Control for Small Body Missions"
 date: 2018-07-25
 excerpt: "Dissertation and defense from George Washington University"
 category: [research]
-tag: [astrodynamics, computational_geometry, geometric_control, geometric_mechanics, python, publication]
+tag: [astrodynamics, computational_geometry, geometric_control, geometric_mechanics, python, publication, cpp]
 file: https://github.com/skulumani/dissertation/releases/download/v1.5.11/dissertation.pdf 
 mathjax: true
 ---
