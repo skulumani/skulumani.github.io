@@ -5,7 +5,7 @@ date: 2018-07-25
 excerpt: "Dissertation and defense from George Washington University"
 category: [research]
 tag: [astrodynamics, computational_geometry, geometric_control, geometric_mechanics, python, publication, cpp]
-file: https://github.com/skulumani/dissertation/releases/download/v1.5.11/dissertation.pdf 
+file: https://github.com/skulumani/dissertation/releases/download/v1.6.0/dissertation.pdf 
 mathjax: true
 ---
 
@@ -43,7 +43,7 @@ More videos around several different asteroids are provided [here](https://www.y
 
 ## Downloads
 
-* [Dissertation](https://github.com/skulumani/dissertation/releases/download/v1.5.11/dissertation.pdf)
-* [Defense presentation](https://github.com/skulumani/dissertation/releases/download/v1.5.11/dissertation.pdf)
+* [Dissertation](https://github.com/skulumani/dissertation/releases/download/v1.6.0/dissertation.pdf)
+* [Defense presentation](https://github.com/skulumani/dissertation/releases/download/v1.6.0/dissertation.pdf)
 * [Software](https://github.com/skulumani/asteroid_dumbbell)
 * [Shape reconstruction videos](https://www.youtube.com/playlist?list=PL3wJMXefOGf7CUFEN3aufjk-fYnC42c0W)
