@@ -22,5 +22,7 @@ publication:
   name: Publication
 python:
   name: Python
+cpp:
+  name: C++
 professional:
   name: Professional
