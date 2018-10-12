@@ -69,7 +69,7 @@ social:
 
 # Jekyll-scholar settings
 scholar:
-  dependent/style: ieee
+  dependent/style: assets/ieee.csl
   locale: en
 
   sort_by: year

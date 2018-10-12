@@ -25,7 +25,7 @@ $$
 </ul> 
 -->
 
-{% for year in (2013..2017) reversed %}
+{% for year in (2013..2018) reversed %}
 ### {{ year }}
 
 {% bibliography --query @*[year={{ year }}] %}
