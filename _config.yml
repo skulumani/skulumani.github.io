@@ -9,7 +9,7 @@ permalink:        /:year/:month/:title.html
 
 # Setup
 title:            Shankar Kulumani 
-tagline:          'PhD Candidate'
+tagline:          ''
 description:      'A personal site highlighting my research and interests.'
 url:              "https://www.shankarkulumani.com"
 enforce_ssl:      www.shankarkulumani.com 
@@ -24,7 +24,7 @@ paginate:         5
 
 # Custom vars
 version:          0.1
-date:               "2018-09-28"
+date:               "2018-10-12"
 
 github:
   repo:           https://github.com/skulumani

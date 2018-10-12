@@ -44,6 +44,8 @@ More videos around several different asteroids are provided [here](https://www.y
 ## Downloads
 
 * [Dissertation](https://github.com/skulumani/dissertation/releases/download/v1.6.0/dissertation.pdf)
+* [GWU Dissertation](https://wrlc-gwu.primo.exlibrisgroup.com/discovery/fulldisplay?docid=proquest2100701115&context=PC&vid=01WRLC_GWA:live&search_scope=DN_and_CI&tab=Everything&lang=en)
 * [Defense presentation](https://github.com/skulumani/dissertation/releases/download/v1.6.0/dissertation.pdf)
 * [Software](https://github.com/skulumani/asteroid_dumbbell)
 * [Shape reconstruction videos](https://www.youtube.com/playlist?list=PL3wJMXefOGf7CUFEN3aufjk-fYnC42c0W)
+
