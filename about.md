@@ -29,4 +29,5 @@ The key fingerprint is:
 ~~~
 
 A good tutorial is available [here](https://futureboy.us/pgp.html).
+
 {% include creative_commons_license.html %}
