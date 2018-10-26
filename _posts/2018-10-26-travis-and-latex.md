@@ -33,3 +33,16 @@ First, it's assumed that you already have your manuscript tracked by ``git``, if
 
 ## Automatic releases on tags
 
+## Other cool things
+
+You can add some cool badges to your repo
+
+## Examples
+
+Most of my work is using this setup. 
+This includes both LaTeX documents as well as other software.
+
+Examples of setup:
+
+Links to my repos
+
