@@ -17,15 +17,15 @@ This avoids the ``integration hell`` that frequently occurs for large projects.
 We can utilize the same concepts for our LaTeX documents and ensure that the manuscripts are consitently able to be built and available for others to view.
 The key concepts invovled here are common to any software project and can be readily extended:
 
-1. Version control using [Github](github.com)
-2. Continuous Integration using [Travis CI](travis-ci.org)
+1. Version control using [Github](https://github.com)
+2. Continuous Integration using [Travis CI](https://travis-ci.org)
 3. Building/Compiling source code [LaTeX](https://www.latex-project.org/) into the end product 
 
 The specifics of version control, continuous integration, or LaTeX are not explained here but might be topics for a future post.
 
 ## Setup Travis
 
-1. Go to [Travis](travis-ci.org) and sign up for an account and connect it to your Github account.
+1. Go to [Travis](https://travis-ci.org) and sign up for an account and connect it to your Github account.
 2. Enable the CI for your repository by flipping the switch. You can adjust related settings here as well if desired.
 
     ![Enable Travis]({{ site.url }}/assets/travis/enable_travis.png)
