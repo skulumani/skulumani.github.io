@@ -62,7 +62,7 @@ Feel free to use my [card][card] as an example to design your own.
 [qrcode]: https://en.wikipedia.org/wiki/QR_code
 [zxing]: https://github.com/zxing/zxing/
 [vcard]: https://en.wikipedia.org/wiki/VCard
-[mecard]: https://www.nttdocomo.co.jp/english/service/developer/make/content/barcode/function/application/addressbook/index.html
+[mecard]: https://en.wikipedia.org/wiki/MeCard_(QR_code)
 [sqrl]: https://www.grc.com/sqrl/sqrl.htm
 [qrcode_latex]: https://www.ctan.org/tex-archive/macros/latex/contrib/qrcode?lang=en
 [card]: https://github.com/skulumani/business_card

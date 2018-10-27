@@ -45,6 +45,6 @@ There are several useful packages already included and some of their usage is sh
 ## Contributing
 
 Feel free suggest improvements or corrections that you may find. 
-You can add any issues to the [Github repository](https://github.com/fdcl-gwu/thesis-gwu/issues).
+You can add any issues to the [Github repository](https://github.com/skulumani/thesis-gwu/issues).
 I'm also more than happy to accept any [pull requests](https://help.github.com/articles/about-pull-requests/) for improvements.
 
