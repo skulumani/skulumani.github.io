@@ -6,7 +6,7 @@ tags: [latex]
 excerpt: "A template and class file to automatically format a PhD/MS thesis for GWU"
 ---
 
-Download [here](https://github.com/fdcl-gwu/thesis-gwu)
+Download [here](https://github.com/skulumani/thesis-gwu)
 
 ## Description
 
@@ -24,7 +24,7 @@ I primarily took his great work and corrected some outdated packages/commands an
 
 ## Usage
 
-You can find a copy of the source code on [Github](https://github.com/fdcl-gwu/thesis-gwu). 
+You can find a copy of the source code on [Github](https://github.com/skulumani/thesis-gwu). 
 
 The source code includes `thesis-gwu.cls` as well as a sample thesis using the class file, which highlights many of the features. 
 It's as simple as placing `thesis-gwu.cls` in your working directory and using
