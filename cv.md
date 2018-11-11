@@ -2,7 +2,7 @@
 layout: page
 title: "Curriculum Vitae"
 date: 2015-10-08
-file: https://github.com/skulumani/kulumani_cv/releases/download/v21/kulumani_cv.pdf
+file: https://github.com/skulumani/kulumani_cv/releases/download/v1.6/kulumani_cv.pdf
 mathjax: true
 ---
 
