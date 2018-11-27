@@ -4,47 +4,49 @@ https://keybase.io/skulumani
 
 I hereby claim:
 
-  * I am an admin of https://skulumani.github.io
+  * I am an admin of https://shankarkulumani.com
   * I am skulumani (https://keybase.io/skulumani) on keybase.
-  * I have a public key ASBlt-iBY_qyb2Kli7jZX58DoWrBh1X0-UOlOVFMsYhdggo
+  * I have a public key ASAC2psirC8mJlmH7n9Jnhz59K6jOFVoq5N3R9gH7wtPlQo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "01019ee80445ecd5a4ff38df03e136d77ec52e27852fd8c01a90a65a9bed8ab81cc10a",
-            "host": "keybase.io",
-            "kid": "012065b7e88163fab26f62a58bb8d95f9f03a16ac18755f4f943a539514cb1885d820a",
-            "uid": "6820653f157385b5c7231feac8cd4919",
-            "username": "skulumani"
-        },
-        "service": {
-            "hostname": "skulumani.github.io",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "01019ee80445ecd5a4ff38df03e136d77ec52e27852fd8c01a90a65a9bed8ab81cc10a",
+      "host": "keybase.io",
+      "kid": "012002da9b22ac2f26265987ee7f499e1cf9f4aea3385568ab937747d807ef0b4f950a",
+      "uid": "6820653f157385b5c7231feac8cd4919",
+      "username": "skulumani"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.14"
-    },
-    "ctime": 1458253168,
-    "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1458253070,
-        "hash": "48b63793f898347ffff53ae9013595507aa4164d296a3d5f46b7120fe22c69f4a3b618bb9ea3eb3aa9b3284437df424c830f28fcd93b3b415c08415520b979ff",
-        "seqno": 411095
+      "ctime": 1543359516,
+      "hash": "6dc240043636bb4e326dc410e80bc61a509efcc42d560d4bf922bb38669c37f355533c79e602443c8448b7d7677f4b8863b46bc8789718a6b4bd217f28b524c8",
+      "hash_meta": "5298502ca952d03723fcf62e1fe4746684266de499b924473900c1b904bc76cc",
+      "seqno": 4018796
     },
-    "prev": "db1db6f7c99c216ed48df92d6cf8bd7809afdb909a66339eb668d72fb9137cb8",
-    "seqno": 10,
-    "tag": "signature"
+    "service": {
+      "entropy": "xhCWd72ZwZVeTISi/lPWAPcj",
+      "hostname": "shankarkulumani.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.11.0"
+  },
+  "ctime": 1543359558,
+  "expire_in": 504576000,
+  "prev": "95faa6cd9f798f9a2faf8eb93934de790f53851905f268264b57b26b7ae03bde",
+  "seqno": 45,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZbfogWP6sm9ipYu42V+fA6FqwYdV9PlDpTlRTLGIXYIKp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOWVlODA0NDVlY2Q1YTRmZjM4ZGYwM2UxMzZkNzdlYzUyZTI3ODUyZmQ4YzAxYTkwYTY1YTliZWQ4YWI4MWNjMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjViN2U4ODE2M2ZhYjI2ZjYyYTU4YmI4ZDk1ZjlmMDNhMTZhYzE4NzU1ZjRmOTQzYTUzOTUxNGNiMTg4NWQ4MjBhIiwidWlkIjoiNjgyMDY1M2YxNTczODViNWM3MjMxZmVhYzhjZDQ5MTkiLCJ1c2VybmFtZSI6InNrdWx1bWFuaSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic2t1bHVtYW5pLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE0In0sImN0aW1lIjoxNDU4MjUzMTY4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NTgyNTMwNzAsImhhc2giOiI0OGI2Mzc5M2Y4OTgzNDdmZmZmNTNhZTkwMTM1OTU1MDdhYTQxNjRkMjk2YTNkNWY0NmI3MTIwZmUyMmM2OWY0YTNiNjE4YmI5ZWEzZWIzYWE5YjMyODQ0MzdkZjQyNGM4MzBmMjhmY2Q5M2IzYjQxNWMwODQxNTUyMGI5NzlmZiIsInNlcW5vIjo0MTEwOTV9LCJwcmV2IjoiZGIxZGI2ZjdjOTljMjE2ZWQ0OGRmOTJkNmNmOGJkNzgwOWFmZGI5MDlhNjYzMzllYjY2OGQ3MmZiOTEzN2NiOCIsInNlcW5vIjoxMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAM8/k6pq2XDXDb1EyZZv07xBOB6Hj9PBNtRltsa+3PjWMTrhuAgU/PTNXj7FoiTJcMLadbRySst2Iq+lGQSSYDqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAtqbIqwvJiZZh+5/SZ4c+fSuozhVaKuTd0fYB+8LT5UKp3BheWxvYWTESpcCLcQglfqmzZ95j5ovr465OTTeeQ9ThRkF8mgmS1eya3rgO97EIKB96bZ6bUWLwR3XtAR/pPqIYHFA/Nheg5DMvbskVtTEAgHCo3NpZ8RAezdbomip6g8Pwjax41DkV7zGD+c5yyGqkIb9uKOXFdS5y+83dkmQOXDvWNdv7OytsKX4ZWaXRRJ0+LAvoTJGCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIL8gBf0xFJOnlI6bW0M8FUKBdNEMLbPqOoDIXKaP2qqWo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
