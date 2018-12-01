@@ -30,7 +30,10 @@ github:
   repo:           https://github.com/skulumani
 
 repository: skulumani/skulumani.github.io
- 
+
+# Google Analytics tracking ID
+google_analytics: UA-130191901-1
+
 # Gems for Jekyll 
 plugins:
   - 'jekyll-paginate'
