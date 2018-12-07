@@ -18,11 +18,11 @@ B.S.  | U.S. Air Force Academy       | 2005 - 2009
 
 ## Professional Experience
 
-Rockwell Collins | Senior Systems Engineer | 2018 - Present
-GWU       | Adjunct Professor          | 2017 - 2018
-DIA/MSIC  | Threat Systems Engineer    | 2014 - 2018
-AFRL/RV   | Lead Test Engineer         | 2011 - 2014
-SDTW/SDDR | Deputy Space Vehicles Lead | 2009 - 2011
+Collins Aerospace | Senior Systems Engineer    | 2018 - Present
+GWU               | Adjunct Professor          | 2017 - 2018
+DIA/MSIC          | Threat Systems Engineer    | 2014 - 2018
+AFRL/RV           | Lead Test Engineer         | 2011 - 2014
+SDTW/SDDR         | Deputy Space Vehicles Lead | 2009 - 2011
 
 ## Awards
 
