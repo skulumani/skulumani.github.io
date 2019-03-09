@@ -10,6 +10,8 @@ geometric_mechanics:
   name: Geometric Mechanics
 git:
   name: Git
+gpg:
+  name: GPG
 hobby:
   name: Hobbies
 latex:
