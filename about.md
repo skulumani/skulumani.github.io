@@ -3,31 +3,33 @@ layout: page
 title: About
 ---
 
-I am a graduate student at the George Washington University in the [Flight Dynamics and Control Laboratory](http://fdcl.seas.gwu.edu/). 
+{% comment %} I am a graduate student at the George Washington University in the [Flight Dynamics and Control Laboratory](http://fdcl.seas.gwu.edu/). {% endcomment %} 
 
+I am Senior Systems Engeering for Guidance, Navigation and Control at [Collins Aerospace](https://www.rockwellcollins.com/).
+At Collins, I support a wide range of engineering and development projects related to some/all of the following areas:
+* Inertial Navigation
+* Sensor Fusion
+* Nonlinear Estimation
+* Nonlinear Control
+* Numerical Analysis
+* Dynamical System Simulation and Testing
+* Software Development
 
 ## Contact Information
 
-I can be reached via email at [shanks.k@gmail.com](mailto:shanks.k@gmail.com).
+I can be reached via one/all of the following:
+* [shanks.k@gmail.com](mailto:shanks.k@gmail.com).
+* [@skulumani](https://twitter.com/skulumani)
+* [Signal](https://signal.org) - You can find my number on my [resume](https://github.com/skulumani/kulumani_cv/releases/download/v1.6.2/kulumani_cv.pdf)
+    
+### PGP Key and Fingerprint
 
-
-## [Signal](https://whispersystems.org/)
-
-Signal allows for simple and secure commuincations across mobile devices. 
-It is available for both Android and iOS and offers encrypted messages and calls. 
-It is also [completely open-source](https://github.com/WhisperSystems), available for free and trusted by [security researchers](http://blog.cryptographyengineering.com/2013/03/here-come-encryption-apps.html).
-
-## GPG Key
-
-My [GPG](https://keybase.io/skulumani/pgp_keys.asc?fingerprint=5dc0e5c9ad73dc63d61d744520d0685093466fc7) key is available on [Keybase.io](https://keybase.io/skulumani).
-With `keybase.io` you can further verify that this key is associated with me since it's also tied to several social media accounts and this domain name.
-
-The key fingerprint is:
+[Shankar Kulumani Public Key](https://keybase.io/skulumani/pgp_keys.asc?fingerprint=5dc0e5c9ad73dc63d61d744520d0685093466fc7)
 
 ~~~
-5DC0E5C9AD73DC63D61D744520D0685093466FC7
+5DC0 E5C9 AD73 DC63 D61D 7445 20D0 6850 9346 6FC7
 ~~~
 
-A good tutorial is available [here](https://futureboy.us/pgp.html).
+You can further verify this public key using [keybase.io](https://keybase.io/skulumani).
 
 {% include creative_commons_license.html %}
