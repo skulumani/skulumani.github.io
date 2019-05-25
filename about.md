@@ -20,7 +20,7 @@ At Collins, I support a wide range of engineering and development projects relat
 I can be reached via one/all of the following:
 * [shanks.k@gmail.com](mailto:shanks.k@gmail.com).
 * [@skulumani](https://twitter.com/skulumani)
-* [Signal](https://signal.org) - You can find my number on my [resume](https://github.com/skulumani/kulumani_cv/releases/download/v1.6.2/kulumani_cv.pdf)
+* [Signal](https://signal.org) - You can find my number on my [resume](https://github.com/skulumani/kulumani_cv/releases/download/v1.6.3/kulumani_cv.pdf)
     
 ### PGP Key and Fingerprint
 
