@@ -15,6 +15,7 @@ If that's the case, then you can skip this section and proceed to the following 
 
 Schlage
 KwikSet
+Higher end fancy commerical grade locks
 
 Getting high quality locks doesn't matter if other issues exist:
 
@@ -37,6 +38,15 @@ Fire/egress risk
 
 ## Rekeying
 
+PIN tumbler locks
+
+Shear line
+
+Replacing the pins that interface with the key
+
+Links to things to buy
+
+Instructions on how to rekey with some pictures
 
 
 
