@@ -2,7 +2,7 @@
 layout: post
 title: "BOINC GPU suspend on Linux"
 date: 2020-12-16
-tags: [boinc,programming]
+tags: [boinc,linux]
 excerpt: "Properly suspend GPU  usage on Linux"
 ---
 
