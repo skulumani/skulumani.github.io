@@ -35,6 +35,28 @@ rvm install ruby-2.3.0-dev
 rvm install ruby --latest
 sudo apt-get install nodejs
 ~~~
+
+Or can use the [ubuntu package](https://github.com/rvm/ubuntu_rvm)
+
+~~~
+sudo apt-get install software-properties-common
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt-get update
+sudo apt-get install rvm
+~~~
+
+Make sure terminal Window is set to `Run command as login shell`
+
+~~~
+echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
+~~~
+
+* Install rvm
+
+~~~
+rvm install ruby
+~~~
+
 * Install bundler
 ~~~
 gem install bundler 
