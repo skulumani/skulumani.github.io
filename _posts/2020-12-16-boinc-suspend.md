@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "BOINC GPU suspend on idle Debian"
+title: "BOINC GPU suspend on Linux"
 date: 2020-12-16
 tags: [boinc,programming]
-excerpt: "Proper BOINC GPU idle computation"
+excerpt: "Properly suspend GPU  usage on Linux"
 ---
 
 # Introduction
@@ -38,6 +38,6 @@ done
 All this simple script does is the following:
 
 1. Monitor the dbus interface for the `Presence` object, which signifies when the system is idle/in use
-2. Change the BOINC GPU mode to always/auto (use your preferences)
+2. Change the BOINC GPU mode to always/auto (use your preferences) when system Presence status changes
 
 
