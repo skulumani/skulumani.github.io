@@ -17,9 +17,16 @@ VLAN enabled ports are generally categorized in one of two ways, tagged or untag
 3. IP Pool - set gateway to match above. 
 
 4. DHCP Network -  Set DNS servers, Google and Cloudflare
-3. DHCP - use pool.
 
+3. DHCP server - use pool.
+
+Switch settings - PVID and tagged/untagged
+Firewall rules
 
 # References
 
 https://www.manitonetworks.com/mikrotik/2016/3/5/vlan-trunking
+
+https://www.tp-link.com/us/support/faq/418/
+
+https://documentation.meraki.com/General_Administration/Tools_and_Troubleshooting/Fundamentals_of_802.1Q_VLAN_Tagging
