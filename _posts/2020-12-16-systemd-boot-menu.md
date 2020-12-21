@@ -2,7 +2,7 @@
 layout: post
 title: "Dual Boot PopOS"
 date: 2020-12-16
-tags: [boinc,linux]
+tags: [linux]
 excerpt: "Adding boot entries to PopOS boot menu"
 ---
 

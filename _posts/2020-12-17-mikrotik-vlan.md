@@ -2,7 +2,7 @@
 layout: post
 title: "Mikrotik VLAN - IOT Isolation"
 date: 2020-12-17
-tags: [boinc,linux]
+tags: [network,linux]
 excerpt: "Network isolation using Mikrotik VLANs"
 published: true
 ---

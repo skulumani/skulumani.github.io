@@ -28,3 +28,9 @@ cpp:
   name: C++
 professional:
   name: Professional
+linux:
+  name: Linux
+boinc:
+  name: Boinc
+network:
+  name: Network
