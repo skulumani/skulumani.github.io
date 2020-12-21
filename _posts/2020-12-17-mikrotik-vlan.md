@@ -4,6 +4,7 @@ title: "Mikrotik VLAN - IOT Isolation"
 date: 2020-12-17
 tags: [boinc,linux]
 excerpt: "Adding boot entries to PopOS boot menu"
+published: false
 ---
 
 # Terms
