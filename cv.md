@@ -6,9 +6,12 @@ file: https://github.com/skulumani/kulumani_cv/releases/download/v1.6.5/kulumani
 mathjax: true
 ---
 
+{% comment %}
 ## Research Interests
 
 Geometric mechanics and control for aerospace systems.
+
+{% endcomment %}
 
 ## Education
 
@@ -18,11 +21,14 @@ B.S.  | U.S. Air Force Academy       | 2005 - 2009
 
 ## Professional Experience
 
-Collins Aerospace | Senior Systems Engineer    | 2018 - Present
+Northrop Grumman  | Senior Principal Astrodynamics Engineer | 2021-Present
+Collins Aerospace | Senior Systems Engineer    | 2018 - 2020
 GWU               | Adjunct Professor          | 2017 - 2018
 DIA/MSIC          | Threat Systems Engineer    | 2014 - 2018
 AFRL/RV           | Lead Test Engineer         | 2011 - 2014
 SDTW/SDDR         | Deputy Space Vehicles Lead | 2009 - 2011
+
+{% comment %}
 
 ## Awards
 
@@ -38,3 +44,5 @@ SSPI | Most Innovative/Creative Project                              | 2015
 
 [research_days]: http://researchdays.gwu.edu/
 [rd_showcase]: https://www.seas.gwu.edu/showcase-history
+
+{% endcomment %}
