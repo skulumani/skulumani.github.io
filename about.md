@@ -15,7 +15,7 @@ At Collins, I support a wide range of engineering and development projects relat
 * Dynamical System Simulation and Testing
 * Software Development
 
-{% comment %}
+{% endcomment %}
 
 I am a GNC Engineer at [Northrop Grumman](https://www.northropgrumman.com/).
 At Northrop Grumman, I support a wide range of engineering and development projects related to some/all of the following areas:
