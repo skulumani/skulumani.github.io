@@ -5,12 +5,24 @@ title: About
 
 {% comment %} I am a graduate student at the George Washington University in the [Flight Dynamics and Control Laboratory](http://fdcl.seas.gwu.edu/). {% endcomment %} 
 
-I am Senior Systems Engeering for Guidance, Navigation and Control at [Collins Aerospace](https://www.rockwellcollins.com/).
+{% comment %} I am Senior Systems Engeering for Guidance, Navigation and Control at [Collins Aerospace](https://www.rockwellcollins.com/).
 At Collins, I support a wide range of engineering and development projects related to some/all of the following areas:
 * Inertial Navigation
 * Sensor Fusion
 * Nonlinear Estimation
 * Nonlinear Control
+* Numerical Analysis
+* Dynamical System Simulation and Testing
+* Software Development
+
+{% comment %}
+
+I am a GNC Engineer at [Northrop Grumman](https://www.northropgrumman.com/).
+At Northrop Grumman, I support a wide range of engineering and development projects related to some/all of the following areas:
+* Inertial Navigation
+* Sensor Fusion
+* State Estimation
+* Attitude Dynamics and Control
 * Numerical Analysis
 * Dynamical System Simulation and Testing
 * Software Development
