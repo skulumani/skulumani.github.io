@@ -21,7 +21,8 @@ B.S.  | U.S. Air Force Academy       | 2005 - 2009
 
 ## Professional Experience
 
-Northrop Grumman  | Astrodynamics Engineer | 2021-Present
+JHU/APL           | GNC Engineer         | 2021-Present
+Northrop Grumman  | Astrodynamics Engineer | 2021-2021
 Collins Aerospace | GNC Systems Engineer    | 2018 - 2020
 GWU               | Adjunct Professor          | 2017 - 2018
 DIA/MSIC          | Threat Systems Engineer    | 2014 - 2018

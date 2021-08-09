@@ -17,8 +17,8 @@ At Collins, I support a wide range of engineering and development projects relat
 
 {% endcomment %}
 
-I am a GNC Engineer at [Northrop Grumman](https://www.northropgrumman.com/).
-At Northrop Grumman, I support a wide range of engineering and development projects related to some/all of the following areas:
+I am a GNC Engineer at [Johns Hopkins University Applied Physics Lab](https://www.jhuapl.edu).
+At JHU/APL, I support a wide range of engineering and development projects related to some/all of the following areas:
 * Inertial Navigation
 * Sensor Fusion
 * State Estimation
