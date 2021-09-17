@@ -33,7 +33,11 @@ network={
 
 Add `ssh.txt` to boot folder as well for SSH access
 
-3. Disable serial terminal for use by GPS
+3. Initial setup
+* Change default password
+* Update
+* Disable serial  terminal
+* Install software
 
 # Wiring 
 
