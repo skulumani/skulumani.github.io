@@ -1,6 +1,14 @@
-
+---
+layout: post
+title: "Precision time using GPS/PPS and NTP"
+date: 2021-09-18
+tags: [linux]
+excerpt: "Setting up an stratum 1 NTP server on a Raspberry Pi"
+published: true
+---
 # Purpose
 
+Need accurate time
 # Parts List
 
 |-------|----------------|
@@ -215,8 +223,19 @@ which should show the 1 minute load
 There are lots of OIDs some examples are below
 
 * 1 minute CPU Load: `1.3.6.1.4.1.2021.10.1.3.1`
-*
+* 5 minute CPU Load: `1.3.6.1.4.1.2021.10.1.3.2`
+* 15 minute CPU Load: `1.3.6.1.4.1.2021.10.1.3.3`
+* Idle CPU Time (%): `1.3.6.1.4.1.2021.11.11.0`
+* Total RAM: `1.3.6.1.4.1.2021.4.5.0`
+* Total RAM used: `1.3.6.1.4.1.2021.4.6.0`
+* Total RAM free: `1.3.6.1.4.1.2021.4.11.0`
+* Total disk/partition size (kbytes): `1.3.6.1.4.1.2021.9.1.6.1`
+* Available space on disk: `1.3.6.1.4.1.2021.9.1.7.1`
+* Used space on disk: `1.3.6.1.4.1.2021.9.1.8.1`
+
 # MRTG
+
+# Basic Apache2 webserver
 
 # Reference
 
