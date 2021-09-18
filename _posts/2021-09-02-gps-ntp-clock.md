@@ -197,6 +197,38 @@ Delete following files
 /lib/dhcpd/dhcpcd-hooks/50-ntp.conf
 ~~~
 
+Determine offset between the PPS pulse and the GPS data from the serial port
+
+Disable GPS but monitor
+~~~
+server 127.127.28.0 minpoll 4 maxpoll 4 noselect
+fudget 127.127.28.0 time1 0.000 refid GPSD
+~~~
+
+Now watch output of `ntpq -pn` and look at offset for server with refid GPSD.
+Then use that value in the server config, assume 130ms. 
+If the offset is negative, then the config should be positive (opposite).
+
+~~~
+server 127.127.28.0 minpoll 4 maxpoll 4 prefer
+fudge 127.127.28.0 time1 0.130 refid GPSD
+~~~
+
+Can also do this automatically by using some unix magic
+This will grep the output of `ntpq` and look for the line with our GPS device only when it updates (when t column goes to 1), then append that to the end of the file.
+
+~~~
+watch -n 0.5 "ntpq -pn | grep -E '.GPS. +0 +l +1 ' | tee --append gpsd_offset.txt"
+~~~
+
+Once it's run for a long time (days or so) then compute the mean offset using the following:
+
+~~~
+awk '{total=total+$9; count=count+1} END {print "Total:"total; print "Count:"count; print "Avg:"total/count}' gps_offset.txt
+~~~
+
+Then just update the ntp configuration at `/etc/ntp.conf` with the offset (don't forget to swap sign)
+
 # [SNMP](https://www.satsignal.eu/raspberry-pi/monitoring.html#ntp)
 
 For remote monitoring: 
