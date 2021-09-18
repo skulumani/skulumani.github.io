@@ -189,6 +189,35 @@ Delete following files
 /lib/dhcpd/dhcpcd-hooks/50-ntp.conf
 ~~~
 
+# [SNMP](https://www.satsignal.eu/raspberry-pi/monitoring.html#ntp)
+
+For remote monitoring: 
+~~~
+sudo apt-get update
+sudo apt-get install snmpd snmp
+~~~
+
+Change config for remote access `sudo vim /etc/snmp/snmpd.conf`
+Change `agentAddress udp:127.0.0.1:161` to `agentAddress udp:161,udp6:[::1]:161`
+
+Add `rocommunity public` below the line `#rocommunity public localhost`
+
+Restart SNMP daemon `sudo service snmpd restart`
+
+Can verify it's working by the following
+
+~~~
+snmpwalk -Os -c public -v 2c localhost 1.3.6.1.4.1.2021.10.1.3.1
+~~~
+
+which should show the 1 minute load
+
+There are lots of OIDs some examples are below
+
+* 1 minute CPU Load: `1.3.6.1.4.1.2021.10.1.3.1`
+*
+# MRTG
+
 # Reference
 
 * [PCF8523](https://learn.adafruit.com/adafruit-pcf8523-real-time-clock)
