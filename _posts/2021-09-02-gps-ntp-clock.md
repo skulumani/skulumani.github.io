@@ -267,7 +267,20 @@ Then just update the ntp configuration at `/etc/ntp.conf` with the offset (don't
 
 ## Performance monitoring NTP
 
-Enable statistics from NTP
+NTP offers a large variety of [logging functionality](https://docs.ntpsec.org/latest/monopt.html#statistics).
+
+Enable [statistics](http://www.ntp.org/ntpfaq/NTP-s-trouble.htm) logging within NTP by modifying the `ntp.conf` configuration.
+Make sure the `statsdir` exists ahead of time using `mkdir -p /home/pi/ntpstats/` and also always use the full path.
+
+~~~
+statsdir /home/pi/ntpstats/
+statistics loopstats peerstats clockstats
+
+filegen loopstats file loopstats type day enable
+filegen peerstats file peerstats type day enable
+filegen clockstats file clockstats type day enable
+~~~
+
 Plot the statistics
 Send stats out over SNMP
 Generate plots using MRTG
@@ -319,3 +332,4 @@ There are lots of OIDs some examples are below
 * [GT-U7 Manual](https://m.media-amazon.com/images/I/91tuvtrO2jL.pdf)
 * [NTP](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
 * [Johanees Weber NTP via GPS](https://weberblog.net/ntp-server-via-gps-on-a-raspberry-pi/)
+* [David Taylor NTP](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
