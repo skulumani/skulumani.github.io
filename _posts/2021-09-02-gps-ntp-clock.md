@@ -265,6 +265,13 @@ awk '{total=total+$9; count=count+1} END {print "Total:"total; print "Count:"cou
 
 Then just update the ntp configuration at `/etc/ntp.conf` with the offset (don't forget to swap sign)
 
+## Performance monitoring NTP
+
+Enable statistics from NTP
+Plot the statistics
+Send stats out over SNMP
+Generate plots using MRTG
+
 # [SNMP](https://www.satsignal.eu/raspberry-pi/monitoring.html#ntp)
 
 For remote monitoring: 
