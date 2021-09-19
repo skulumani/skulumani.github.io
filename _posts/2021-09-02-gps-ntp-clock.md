@@ -33,13 +33,24 @@ The RapsberryPi GPIO pins operate such that 3.3V are considered high.
 
 |-------------|------------------|
 | GPS | RPi |
-| PPS | GPIO4 Pin 7|
+|-----|-----|
+| PPS | GPIO4 Pin 7 |
 | TXD | GPIO15 Pin 10 |
 | RXD | GPIO14 Pin 8 |
 | GND | Ground Pin 6 |
 | VCC | 3.3V Pin 1 or 5V Pin 2|
 
-# RPi setup
+
+Now that the components are wired up we're going set up a few pieces of software:
+
+1. Basic Raspberry Pi setup
+2. GPS and PPS setup
+3. NTP Setup
+4. SNMP Setup
+5. Simple Apache webserver
+6. MRTG Plotting 
+
+# Basic Raspberry Pi Setup
 
 1. Install raspbian 
 2. [Headless](https://www.raspberrypi.org/documentation/computers/configuration.html#setting-up-a-headless-raspberry-pi)
@@ -96,6 +107,7 @@ Add following to `/etc/modules`
 pps-gpio
 ~~~
 
+Test the GPS is working by reading the output:
 ~~~
 cat /dev/ttyAMA0 
 ~~~
@@ -195,6 +207,30 @@ Delete following files
 ~~~
 /etc/dhcp/dhclient-exit-hooks.d/ntp
 /lib/dhcpd/dhcpcd-hooks/50-ntp.conf
+~~~
+
+Add the following lines to `/etc/ntp.conf`
+
+Add PPS server to NTP. This one is using the kernel PPS driver. 
+
+~~~
+server 127.127.22.0 minpoll 4 maxpoll 4
+fudge 127.127.22.0 refid PPS
+~~~
+
+Add GPS server to NTP
+
+~~~
+server 127.127.28.0 minpoll 4 maxpoll 4 
+fudge 127.127.28.0 time1 +0.000 refid GPS
+~~~
+
+
+Shared memory PPS 
+
+~~~
+server 127.127.28.2 minpoll 4 maxpoll 4
+fudge 127.127.28.2 refid SHM2
 ~~~
 
 Determine offset between the PPS pulse and the GPS data from the serial port
