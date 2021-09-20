@@ -323,7 +323,13 @@ There are lots of OIDs some examples are below
 
 # MRTG
 
+Run `setup_mrtg.sh` script
+
 # Basic Apache2 webserver
+
+Run the `setup_apache.sh` script. 
+This creates a website in `/home/pi/www` where you can add any html pages for display
+
 
 # Reference
 
