@@ -323,7 +323,13 @@ There are lots of OIDs some examples are below
 
 # MRTG
 
-Run `setup_mrtg.sh` script
+MRTG is pretty cool but is somewhat limited for my application. 
+It was originally created for network monitoring and as a result has some fundamental drawbacks.
+For example, there's no default manner to handle negative values, so everything in this script, `setup_mrtg.sh` is set up with an offset.
+
+Instead, I'm going to use `rrdtool` which will serve as a relatively easy database to store time series data. 
+Then can either plot the data using `rrdtool` itself, or export in JSON format for plotting with Python.
+
 
 # Basic Apache2 webserver
 
