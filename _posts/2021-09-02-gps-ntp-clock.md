@@ -93,6 +93,8 @@ Install software
 sudo apt-get install gpsd gpsd-clients pps-tools vim
 ~~~
 
+Need to make sure that [GPSD version](https://gitlab.com/gpsd/gpsd/-/issues/144) > 3.20
+
 Add following to `/boot/config.txt`
 
 ~~~
@@ -331,6 +333,7 @@ Instead, I'm going to use `rrdtool` which will serve as a relatively easy databa
 Then can either plot the data using `rrdtool` itself, or export in JSON format for plotting with Python.
 
 
+Run `setup_mrtg.sh` script
 # Basic Apache2 webserver
 
 Run the `setup_apache.sh` script. 
