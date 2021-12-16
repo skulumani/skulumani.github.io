@@ -93,6 +93,8 @@ Install software
 sudo apt-get install gpsd gpsd-clients pps-tools vim
 ~~~
 
+Need to make sure that [GPSD version](https://gitlab.com/gpsd/gpsd/-/issues/144) > 3.20
+
 Add following to `/boot/config.txt`
 
 ~~~
@@ -328,7 +330,12 @@ There are lots of OIDs, some examples are below for raspbian buster
 
 # MRTG
 
-Run `setup_mrtg.sh` script
+MRTG is pretty cool but is somewhat limited for my application. 
+It was originally created for network monitoring and as a result has some fundamental drawbacks.
+For example, there's no default manner to handle negative values, so everything in this script, `setup_mrtg.sh` is set up with an offset.
+
+Instead, I'm going to use `rrdtool` which will serve as a relatively easy database to store time series data. 
+Then can either plot the data using `rrdtool` itself, or export in JSON format for plotting with Python.
 
 MRTG can monitor other data not provided by SNMP directly using an external script. 
 It is documented [here](https://oss.oetiker.ch/mrtg/doc/mrtg-reference.en.html).
@@ -347,6 +354,9 @@ Make sure to use backticks, not apostrophes
 
 Pipe `gpspipe -w` to Python then parse the JSON, then output into a MRTG compatible format
 
+
+
+Run `setup_mrtg.sh` script
 
 # Basic Apache2 webserver
 
