@@ -305,10 +305,15 @@ Can verify it's working by the following
 ~~~
 snmpwalk -Os -c public -v 2c localhost 1.3.6.1.4.1.2021.10.1.3.1
 ~~~
+which should show the 1 minute load.
 
-which should show the 1 minute load
+Also can walk through all OIDs using the following:
 
-There are lots of OIDs some examples are below
+~~~
+snpwalk -c public -v 1 localhost .1.3 > /tmp/oids.txt
+~~~
+
+There are lots of OIDs, some examples are below for raspbian buster
 
 * 1 minute CPU Load: `1.3.6.1.4.1.2021.10.1.3.1`
 * 5 minute CPU Load: `1.3.6.1.4.1.2021.10.1.3.2`
@@ -325,11 +330,32 @@ There are lots of OIDs some examples are below
 
 Run `setup_mrtg.sh` script
 
+MRTG can monitor other data not provided by SNMP directly using an external script. 
+It is documented [here](https://oss.oetiker.ch/mrtg/doc/mrtg-reference.en.html).
+The external script just needs to return 4 lines of output defined below:
+    * Line 1 Current state of first variable, normally `incoming bytes count`
+    * Line 2 Current state of second variable, normally `outgoing bytes count`
+    * Line 3 String (in any human readable format), telling the uptime of target
+    * Line 4 string, name of the target
+An example `mrtg` target is below
+~~~
+Target[ex]: `bash /home/pi/script.sh`
+~~~
+Make sure to use backticks, not apostrophes
+
+## Parsing GPS for use in MRTG
+
+Pipe `gpspipe -w` to Python then parse the JSON, then output into a MRTG compatible format
+
+
 # Basic Apache2 webserver
 
 Run the `setup_apache.sh` script. 
 This creates a website in `/home/pi/www` where you can add any html pages for display
 
+Some other tutorials on setting up an Apache2 webserver on a Raspberry Pi
+
+* [Pi my Life up](https://pimylifeup.com/raspberry-pi-apache/https://pimylifeup.com/raspberry-pi-apache/)
 
 # Reference
 
