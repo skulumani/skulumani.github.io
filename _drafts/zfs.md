@@ -76,4 +76,30 @@ config:
 errors: No known data errors
 ~~~
 
+~~~
+
+Wait unit resilvering is completed
+
+~~~
+[I] ➜ zpool status
+  pool: data
+ state: DEGRADED
+status: One or more devices is currently being resilvered.  The pool will
+	continue to function, possibly in a degraded state.
+action: Wait for the resilver to complete.
+  scan: resilver in progress since Fri Feb  4 21:18:01 2022
+	364G scanned at 66.1M/s, 80.8G issued at 14.7M/s, 364G total
+	81.0G resilvered, 22.19% done, 0 days 05:29:30 to go
+config:
+
+	NAME                                           STATE     READ WRITE CKSUM
+	data                                           DEGRADED     0     0     0
+	  mirror-0                                     DEGRADED     0     0     0
+	    ata-WDC_WD5000AADS-00S9B0_WD-WCAV90314351  ONLINE       0     0     0
+	    replacing-1                                DEGRADED     2     0     0
+	      8834335926381272963                      UNAVAIL      0     0     0  was /dev/disk/by-id/ata-WDC_WD10EARX-00N0YB0_WD-WMC0S0561306-part1
+	      ata-MG04ACA600E_Y699K0Y9FJZC             ONLINE       0     0     2  (resilvering)
+
+errors: No known data errors
+~~~
 
