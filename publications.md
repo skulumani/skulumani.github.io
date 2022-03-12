@@ -25,12 +25,17 @@ $$
 </ul> 
 -->
 
-{% for year in (2013..2018) reversed %}
-### {{ year }}
+<!--
+ {% for year in (2013..2018) reversed %}
+ ### {{ year }}
+ {% bibliography --query @*[year={{ year }}] %}
+ {% endfor %}
+-->
+test
 
-{% bibliography --query @*[year={{ year }}] %}
+{% bibliography %}
 
-{% endfor %}
+
 
 <p>
 More:
