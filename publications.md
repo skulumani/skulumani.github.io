@@ -31,10 +31,8 @@ $$
  {% bibliography --query @*[year={{ year }}] %}
  {% endfor %}
 -->
-test
 
 {% bibliography %}
-
 
 
 <p>
