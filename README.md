@@ -82,11 +82,12 @@ bundle exec jekyll serve
 * [Tutorial](https://michaelgoerz.net/notes/accessing-a-jupyter-notebook-server-through-reverse-port-forwarding.html)
 * [Gitlab Tutorial](https://about.gitlab.com/2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/)
 1. Install `letsencrypt` or clone from the repo `git clone https://github.com/letsencrypt/letsencrypt` 
-~~~
+
 2. For Gitlab webroot certificates
 ~~~
 ./letsencrypt-auto certonly -a manual -d shankarkulumani.com -d www.shankarkulumani.com
 ~~~
+
 3. Place the challenges in the appropriate locaiton on the website and push
 5. Copy `fullchain.pem` to Certificate and `privkey.pem` to Key on Gitlab.
 Both are located at `sudo cat /etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem`
@@ -97,3 +98,13 @@ To renew just run the steps again!
 
 The domain name is on Namecheap, which points to netlify.com which does the actual hosting. 
 Also netlify automatically sets up LetsEncrypt so it's very easy now. 
+
+# Updating publications
+
+1. Export publications to `references.bib` file from Jabref and main `library.bib`
+2. Copy `references.bib` to  `bibliography/`
+3. Modify `publications.md` if desired
+4. Bibliography is defined in `_config.yml` in the `scholar` section. Look at [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) for documentation
+
+
+

@@ -24,7 +24,7 @@ paginate:         5
 
 # Custom vars
 version:          0.1
-date:               "2021-12-15"
+date:               "2022-03-13"
 
 github:
   repo:           https://github.com/skulumani
@@ -75,11 +75,12 @@ scholar:
   dependent/style: assets/ieee.csl
   locale: en
 
-  sort_by: year
-  order: descending
+  # sort_by: year
+  # order: descending, descending
 
-  # group_by: none
-  # group_order: ascending
+  group_by: type, year
+  group_order: ascending, descending
+  type_order: [thesis, book, article]
 
   source: ./_bibliography
   bibliography: references.bib
