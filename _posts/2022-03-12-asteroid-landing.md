@@ -17,8 +17,8 @@ Construction of the precise shape of an asteroid is critical for spacecraft oper
 
 You can find source code, the manuscript, and slides below.
 
-* [Simulation Code](https://github.com/skulumani/2017_JAS_matlab)
-* [Manuscript](https://github.com/skulumani/2018_JGCD)
+* [Simulation Code](https://github.com/skulumani/2017_JAS_matlab) - source code for the results/implementation
+* [Manuscript](https://github.com/skulumani/2018_JGCD) - source code for the manuscript
 * [Springer Link](https://rdcu.be/cIEep) This link will let you read the manuscript for free from Springer
-* [Arxiv preprint]() - Here  is the same article but you don't have to pay Springer to read/print it
+* [Arxiv preprint](https://arxiv.org/abs/2203.06485) - Here is the same article but you don't have to pay Springer to read/print it
 * [DOI: 10.1007/s40295-022-00310-6](https://doi.org/10.1007/s40295-022-00310-6)
